@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m3chNEkSxkuaWVkG8NXogA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/orderedits////" CvTextArea="300, 467, 121, 17" CvTextArgument="Confirmation #" CvType="Text" DesignTimeRectangle="287, 454, 291, 43" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aaname='Confirmation #' aria-role='menu' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Confirmation #' aria-role='menu' tag='DIV' type='' class='io-menu-item io-enabled' check:innerText='Confirmation #' /&gt;" Guid="b8e9997e-3ab5-4cc8-a761-9ba317aeb44f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f6438ea2153ee536e5b442c08d6c839d.png" xmlns="">0WxvUDxhLJ0unOGbAAlw3vg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "UserName",
+  "Description": "Type Into Username Feild",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "oyaW1JcHw0Kw3o5C2FdyCw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/oyaW1JcHw0Kw3o5C2FdyCw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/xONbwc9vz0epw7aYlpGCiA",
+  "Created": "2023-11-08T15:08:02.7050509Z",
+  "Updated": "2023-11-08T15:08:02.7050509Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

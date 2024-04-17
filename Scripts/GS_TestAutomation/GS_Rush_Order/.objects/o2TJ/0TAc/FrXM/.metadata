@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome: CloudIO",
+  "Type": "Screen",
+  "Id": "FrXMw4NlMkCQ6GoAjY-nrQ",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/FrXMw4NlMkCQ6GoAjY-nrQ",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/0TAc4dnAA0GD94lvRfnxuA",
+  "Created": "2024-04-16T17:19:41.2236808Z",
+  "Updated": "2024-04-16T17:19:41.2236808Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

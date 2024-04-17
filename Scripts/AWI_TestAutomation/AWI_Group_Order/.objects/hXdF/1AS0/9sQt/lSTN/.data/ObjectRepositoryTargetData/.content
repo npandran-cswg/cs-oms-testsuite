@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FpN-3q29U0Krv13JtL57-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-rush-order" CvTextArea="363, 506, 11, 10" CvType="Text" DesignTimeRectangle="206, 499, 183, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl aaname='PO #' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='PO #' tag='INPUT' type='text' class='io-textfield-input form-control has-max-len' /&gt;" Guid="6fc1cce9-6afa-46d7-b2f4-b490394cfdd8" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CvTextArea="154, 510, 41, 15" CvTextArgument="PO #" CvType="Text" DesignTimeRectangle="57, 499, 138, 38" ElementType="Text" FriendlyName="'PO #'" FullSelectorArgument="&lt;webctrl aaname='PO #' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='PO #' tag='LABEL' type='' class='col-5 control-label' check:innerText='PO #' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAI4AAAAqCAYAAABlcGPwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGZSURBVHhe7djRbcIwFEbhDpSxgE2ASYBBkGAJJFggL2EAN3ZIaocbcP7mwQ+n0ieh6oY85NR2+tP+OK+ua/dsGiAL4UBCOJAQDiSEAwnhQEI4kBAOJIQDCeFAQjiQEA4khAMJ4UBCOJAQDiSEU6rbwW2qylWJtTvejNng7o6r8fzWXc3ZL85bV+0vw+fN6f42QzilCuGkoTxOazse/6DbUMYPuJuv3O4czWbw1/Xfdd3b1xNOqYxw+lUlDeTidkY0gxDVvJXnLxZ/P3uVI5xSmeF0D3XYRlphVVkd3COaSVmxWboA060ulsZHOKXKXHHGIVlyZgb+vn2I/vPEdYRTKiOcEMDoL9//7ttqElal3HCig3F81hkjnFKFcPpt4sXYkpZacboop40DIpxSmVvVu+XOOF58GJ4+GHuEU6rMcPpD7eQr96y3Kv9dr1l//w9BEk6pssNpLfV/nDiW6KxjIZxSzQknMF6nP25h/0M4kBAOJIQDCeFAQjiQEA4khAMJ4UBCOJAQDiSEAwnhQEI4kBAOJIQDQeN+AZYQprJUCiCBAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.CvTextArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:Literal x:TypeArguments="x:String">*</p:Literal>
+        </p:InArgument>
+      </TargetAnchorable.CvTextArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="6e6624e0a024a33664dc472bc267f12c.png" xmlns="">0POYnwYYSLUa8qloQM_zA9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

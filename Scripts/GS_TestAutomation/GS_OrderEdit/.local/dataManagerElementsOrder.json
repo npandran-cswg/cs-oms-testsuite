@@ -1,0 +1,65 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GS_OE_002_User_Not_Allowed_To_Search_Without_Entering_Parameters.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "OrderScreen&Sequence_2",
+        "ErrorMsg&Sequence_2",
+        "Input_Company&Sequence_2",
+        "company030&Sequence_2",
+        "company040&Sequence_2",
+        "variable1&Sequence_2",
+        "company080&Sequence_2",
+        "company090&Sequence_2",
+        "BlindSearch&Sequence_2",
+        "BillingFromFieldText&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "IO_Present_URL",
+        "I_DataRow",
+        "O_Output_msg",
+        "O_Ver_Result_Bool"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Driver.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ConfigFile&Sequence_1",
+        "ConfigSheet&Sequence_1",
+        "TestDataFile&Sequence_1",
+        "TestDataSheet&Sequence_1",
+        "configDT&Sequence_1",
+        "Out_Config&Sequence_1",
+        "Testdata_DT&Sequence_1",
+        "EnvUrlName&Sequence_1",
+        "URL&Sequence_1",
+        "UserName&Sequence_1",
+        "PassWord&Sequence_1",
+        "present_url&Sequence_1",
+        "Exception&Sequence_1",
+        "Output_msg&Sequence_1",
+        "Ver_Result_Bool&Sequence_1",
+        "Start_Time&Sequence_1",
+        "DataRow&Sequence_1",
+        "end_time&Sequence_1",
+        "strRootDirectory&Sequence_2",
+        "Seconds&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

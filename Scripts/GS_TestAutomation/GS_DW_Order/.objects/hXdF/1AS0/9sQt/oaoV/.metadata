@@ -1,0 +1,18 @@
+﻿{
+  "Name": "'Sell' Column",
+  "Description": "Sell price Column in order ",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "oaoV1Zl-mUmtz39QahHiFw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/oaoV1Zl-mUmtz39QahHiFw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2023-11-16T13:20:39.7248902Z",
+  "Updated": "2023-11-23T14:28:21.3841603Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

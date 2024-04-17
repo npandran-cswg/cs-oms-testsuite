@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="faL0_ary8kSBtRx_EH3TJg" Reference="D9F-caV3OUejNlJ30AZkgg/Xl34-am97ky_zVbwuvfWiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs" DesignTimeRectangle="1558, 397, 10, 42" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='io-btn-menu cursor text-truncate io-column-menu' parentid='root' tag='DIV' aaname='' /&gt;" Guid="56adaefd-026f-4104-97f5-80b0b0d37c28" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1529, 301, 80, 17" CvTextArgument="Approve(A)" CvType="Text" DesignTimeRectangle="1487, 289, 144, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Approve(A)' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Approve(A)' tag='BUTTON' type='button' class='io-button btn text-primary btn-sm btn-link' check:innerText='Approve(A)' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="45737a0e8235bf8db71346c9de6945e1.png" xmlns="">0W6WqskjOgEm2Rgj37APFbw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

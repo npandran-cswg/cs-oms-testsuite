@@ -1,0 +1,15 @@
+﻿{
+  "Name": "AWI",
+  "Type": "Screen",
+  "Id": "cU-s6Vm5NUukgwneRtHr7A",
+  "Reference": "HSmDSRGNC0abRN36sZFkmA/cU-s6Vm5NUukgwneRtHr7A",
+  "ParentRef": "HSmDSRGNC0abRN36sZFkmA/-TyNxpLvKEWrgg09W9DoMw",
+  "Created": "2024-03-15T11:39:46.1797452Z",
+  "Updated": "2024-03-15T11:39:46.8263498Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

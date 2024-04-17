@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ukk-LFbrq0WB-ffQTltPmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs" CvTextArea="1350, 705, 97, 18" CvTextArgument="Show Filters" CvType="Text" DesignTimeRectangle="1305, 692, 271, 43" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aaname='Show Filters' aria-role='menu' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Show Filters' aria-role='menu' tag='DIV' type='' class='io-menu-item io-enabled' check:innerText='Show Filters' /&gt;" Guid="292d3061-f3db-44bf-ba0e-39af592c2ff0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d22b9b06b9fd2490923383d0fb503734.png" xmlns="">0OMctVS5XHEWAIE_d3CxAmQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+﻿{
+  "Name": "CycleDropDownItem",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ZfG6EDwP30C4QkUQkmHp7g",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/ZfG6EDwP30C4QkUQkmHp7g",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2024-03-07T17:55:57.2648627Z",
+  "Updated": "2024-03-11T10:45:10.9707965Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

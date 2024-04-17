@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4QAzENQ53kuHOCs-3FO_dw" Reference="D9F-caV3OUejNlJ30AZkgg/MH96VLpE1UWkOWJjxtqIsw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-regular-order-entry-simple//030" CvTextArea="81, 290, 216, 22" CvTextArgument="Regular Order Entry" CvType="Text" DesignTimeRectangle="82, 248, 216, 23" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Regular Order Entry'" FullSelectorArgument="&lt;webctrl class='overflow-ellipsis' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='overflow-ellipsis' tag='SPAN' type='' aaname='Regular Order Entry' check:innerText='Regular Order Entry' /&gt;" Guid="9d868cc1-b1a5-4148-ab6f-af39832f185f" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bb62c7f94205acf88fe2e296ea67976f.png" xmlns="">0k_ex6TpqbEmcUOU0rbhqaQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

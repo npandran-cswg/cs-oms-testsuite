@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ocsnnx0GCUmdn9d57UMxEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs" CvElementArea="1467, 440, 95, 39" CvTextArea="1479, 451, 73, 18" CvTextArgument="Filter OR" CvType="Button" DesignTimeRectangle="1470, 507, 93, 35" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl idx='9' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='io-cell-header-filter-input text-left v-align-middle' placeholder='Filter Order*' aaname='' /&gt;" Guid="842416b6-37eb-4814-8b8e-840623f1bf39" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="32fde696391ff1dc363823a4f30ba888.png" xmlns="">00_TcKmB_BUybcrjiBRu3fA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

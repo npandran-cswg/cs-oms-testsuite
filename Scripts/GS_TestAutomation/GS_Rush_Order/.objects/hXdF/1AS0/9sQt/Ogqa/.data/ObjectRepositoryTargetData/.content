@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yUf1WIo2J0e4PPKgqRE51Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-rush-order" DesignTimeRectangle="1660, 910, 15, 15" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='6' isleaf='1' parentid='popup' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='WorkFlowDesigner-hide-on-drag WorkFlowDesigner-nodrag WorkFlowNodeResizer-resize-bottom-right' isleaf='1' parentid='popup' tag='DIV' aaname='' /&gt;" Guid="1890f550-4968-45d9-a847-c21ebdf110de" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ebdda2248dbb9567c06292cc5539c837.png" xmlns="">0up4tA4zjHUCsbm4Fk5k2nA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

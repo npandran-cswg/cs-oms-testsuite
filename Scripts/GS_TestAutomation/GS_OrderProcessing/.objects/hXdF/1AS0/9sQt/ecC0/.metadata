@@ -1,0 +1,18 @@
+﻿{
+  "Name": "RuO Apply button",
+  "Description": "Rush Order mass popup Apply Button to confrim order",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ecC0TEwalEqI2Bnt6b7wfw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/ecC0TEwalEqI2Bnt6b7wfw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2023-11-08T14:56:51.3593321Z",
+  "Updated": "2023-11-23T14:59:34.5302969Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

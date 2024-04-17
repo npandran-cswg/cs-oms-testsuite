@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome: CloudIO",
+  "Type": "App",
+  "Id": "jWsMUV45ykSkgH_W96M9Pw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/jWsMUV45ykSkgH_W96M9Pw",
+  "Created": "2024-02-08T13:50:05.323048Z",
+  "Updated": "2024-02-08T13:50:05.323048Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.12.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

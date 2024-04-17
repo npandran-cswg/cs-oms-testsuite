@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Loding",
+  "Type": "Element",
+  "TaxonomyType": "Loader",
+  "Id": "cedZd4vhBEykm2niNcRhSQ",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/cedZd4vhBEykm2niNcRhSQ",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-12-07T12:01:45.3605212Z",
+  "Updated": "2023-12-07T12:01:45.3605212Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

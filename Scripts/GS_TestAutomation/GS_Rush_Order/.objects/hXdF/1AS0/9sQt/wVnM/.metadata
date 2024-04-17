@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Text_ItemCode",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "wVnMmy3QjU-zMVIGHDwJ3g",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/wVnMmy3QjU-zMVIGHDwJ3g",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2024-03-21T17:55:15.5263491Z",
+  "Updated": "2024-03-21T17:59:47.1316949Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

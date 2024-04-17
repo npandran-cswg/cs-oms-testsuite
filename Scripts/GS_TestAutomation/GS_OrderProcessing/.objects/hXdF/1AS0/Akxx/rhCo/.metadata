@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Order Entry Screen Text",
+  "Description": "Text element of Order Entry Screen/Tab/Page",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "rhCofuBRn0eXt6V-ASZMiQ",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/rhCofuBRn0eXt6V-ASZMiQ",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/Akxxs_siZEOo0if5vbHkeg",
+  "Created": "2023-11-10T17:31:12.0799443Z",
+  "Updated": "2023-11-28T18:19:16.0779951Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

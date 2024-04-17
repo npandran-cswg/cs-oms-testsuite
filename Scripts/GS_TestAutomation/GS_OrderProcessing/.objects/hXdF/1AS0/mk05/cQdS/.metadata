@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Switch Element",
+  "Description": "Switch element for to change switch preferences",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "cQdS1G-FMU2UTBqJn9iyyw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/cQdS1G-FMU2UTBqJn9iyyw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-07T14:08:25.7987209Z",
+  "Updated": "2023-11-28T17:37:51.1542682Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

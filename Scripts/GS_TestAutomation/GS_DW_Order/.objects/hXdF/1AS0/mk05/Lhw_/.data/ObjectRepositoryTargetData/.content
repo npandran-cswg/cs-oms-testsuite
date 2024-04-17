@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OoBp3SfOYE-kaz20SzhsrQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/distro-rush-workbench" DesignTimeRectangle="951, 612, 281, 45" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'001024'" FullSelectorArgument="&lt;webctrl aaname='001024' idx='3' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='001024' type='' parentid='root' tag='DIV' class='io-cell io-cell-header-group group-end io-cell-center' /&gt;" Guid="a4cd6743-0612-474c-bc97-434488899c8c" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="951, 657, 281, 45" ElementType="Text" FriendlyName="'MA CHUNKY BLUE CHEES'" FullSelectorArgument="&lt;webctrl aaname='MA CHUNKY BLUE CHEES' idx='3' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='MA CHUNKY BLUE CHEES' type='' parentid='root' tag='DIV' class='io-cell io-cell-header-group group-end group-bottom io-cell-center' /&gt;" ImageBase64="" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="79150de8876ce1bce8fe2f565781ec9d.png" xmlns="">0i7bLDmPuV0irCruL7YRFZg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

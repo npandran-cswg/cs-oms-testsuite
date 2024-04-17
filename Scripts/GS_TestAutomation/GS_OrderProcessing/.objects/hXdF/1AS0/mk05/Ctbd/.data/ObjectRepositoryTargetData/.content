@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5nAcxCMrz0eYr_BiEzRVYA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://csomsdev.cswg.com:7777/cloudio/#/app/oms-portal/oms-home" CvElementArea="1532, 140, 55, 33" CvTextArea="1539, 145, 40, 20" CvTextArgument="AWI" CvType="Button" DesignTimeRectangle="1536, 142, 51, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'AWI'" FullSelectorArgument="&lt;webctrl aria-role='link' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='link' tag='SPAN' type='' class='io-badge badge bg-success text-white cursor large-text' /&gt;" Guid="d34e42a8-001c-45a5-996e-30c208a9d095" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1454, 147, 75, 17" CvTextArgument="Division" CvType="Text" DesignTimeRectangle="1449, 140, 86, 32" ElementType="Text" FriendlyName="'Division'" FullSelectorArgument="&lt;webctrl tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H5' type='' class='io-h5 text-white bold large-text' aaname='Division' check:innerText='Division' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFoAAAAkCAYAAAAJgC2zAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIiSURBVGhD7Zo9bsMwDIUzdeqQO3XqcQIfpBdwc44uzt6pm3MMH0G1IscixSfZSRk5QEnggwOK+uGTRAdIdqM5owrQaegDnYY+0GnoA52GPtBp6AOdhj7QaSjy8v7mn7jR0OP188M/caOhx/77yz9xo6HH/qfzT9xo6FFH6EPnBhesP4L2BZrT3Nu1oD3Hvf0ewW1CE8Gw4YTa89TsbehcA2LytOOo0YZTA2IQ9/Z7DMpCT5aKaSf6D0InYsakJju3vO8/R03oC0d2WV13CH66CeEK02sd4wK0zZ/ExnVxUh4Lb9j19Bb65fqKnOQYrAyicTPoCs0WNoZMdVEKzRfM6ifdrMutyAjGNpXastDi9iUWyxvPB9u6sqQsdJLEVD6Q0FLQ0J9uQEgYCZYXsT0vCM02iIjETjgaY7Q5Z/6iXfPe2U5oUSIS3zz+ktB0TAoWWm5kpLzJPB7nlGdDoUFiZPwYhwVj88xGr/HSBpFTPiHXmY/fWGh+Aq4LyC4qETbG0aQK4sA6XRJ1vdDyRPP4bYXO1L/8okgiQ+/6+TMduyyOjLnOgfutKx3LG7OZ0HRib2vrWdrPW3YzmAC0TKA5MiLRw0BzgP5nELpg6UkpLkqMyRPKCz25hKFvDHxMeqql0dhnFZp8TaOUF5WIJkrSDULfUnJQfV81d+CxQht3Y0JXwoSuhAldCfvNsBL2K3gl7H8ddYFOQx/oNPSBTkOVnfsFaIBxkDaDdy4AAAAASUVORK5CYII=" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="30da956a579d694e7f276bc6c2312822.png" xmlns="">0Dhv28nZwzECnLAPETFMpnQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

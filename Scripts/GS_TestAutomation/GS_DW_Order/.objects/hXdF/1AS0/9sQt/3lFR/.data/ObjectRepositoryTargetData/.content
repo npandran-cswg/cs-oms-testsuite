@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IX-V1KPOj0imI_dKEpU2UQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-rush-order" DesignTimeRectangle="496, 407, 125, 38" DesignTimeScaleFactor="1.25" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl aria-role='gridcell' idx='3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='gridcell' type='' tag='DIV' class='io-cell io-body-cell io-iogridstringcolumn io-cell-ro io-cell-left io-cell-odd io-cell-current-row' aaname='' /&gt;" Guid="dc8303e6-35a1-4658-9250-af58997d8731" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CvTextArea="505, 375, 83, 18" CvTextArgument="Item Code" CvType="Text" DesignTimeRectangle="507, 371, 82, 28" ElementType="Text" FriendlyName="'Item Code'" FullSelectorArgument="&lt;webctrl aaname='Item Code' aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Item Code' aria-role='button' tag='DIV' type='' class='io-cell-header-inner overflow-ellipsis' check:innerText='Item Code' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFYAAAAgCAYAAACILY8rAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIUSURBVGhD7ZZBTgMxDEU50ByDXqHlAPQA9ABlWy5RdsASuAGwq1iBuEARq4oNqOugj/Qrj3EybRhXSHjxRCdx7Pgl03Lw8blOQf+EWCdCrBMh1okQ60SIdSLEOhFinQixToTYAnf3D+lwMEhPzy/mfImW2N8k2jer1Xs6mUxS0zQtMIY5a82uuIrF5+Fw9KdkX1xefUvEXzm+fH1Ls9lZiK1hn2/VvxGLGzkaHf24qV64iM19h8mm2Cjn8BljnOehLBaPrVx4XTHPVxps0wD2p2t0gTWsUapj9XJ9c2vGy30D66CrbyyeESuTQphsnDEyJxs9Ho83gq21FojZ5ccJ8bofSsE+OGb1wn3q9bketdxqsVaTPHUWsYryTdASGSsb1uwiNrdvoPPgGeg47Fv6yO0RcbqfKrEUqAtQGjdprQWWIMT0KRbN5mJln7ledByeczl1HKgSi8+I43eMxkusdTNylA5B9lmqq30gp9UvkHGg1xursdaCWrHbxJB93liLKrFIjAK8mTmstaBWLMDabW6t1QuR9Uu9YEzmKOXUdIrlieK0dCxeAT0+n59vmkaevsVShNUgnqfT001eLQZgv3rM6oVjMpa19cFiHv+a8Rl0igUoyO8SWRxxiOecNd+3WMLGNbI+kHsHuduu82GPOR+Yk7FWzpbYoD9CrBMh1okQ60SIdSLEOhFinQixToRYF9bpC/PeWL0I49PZAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fe8ca5b7f7225132db27cb6954c99481.png" xmlns="">0hUHHyFUa4kCWTw5MTkWdoQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

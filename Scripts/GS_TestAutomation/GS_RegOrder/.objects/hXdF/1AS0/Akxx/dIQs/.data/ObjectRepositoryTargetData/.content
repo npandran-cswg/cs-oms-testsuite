@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ioJDzDH7Ckum1ZJH6m6p7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-regular-order-entry-simple//030" CvTextArea="1119, 986, 26, 12" CvTextArgument="298" CvType="Text" DesignTimeRectangle="1115, 982, 38, 22" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='298' aria-role='link' parentid='root' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='link' parentid='root' tag='SPAN' type='' class='io-badge badge badge-pill bg-info text-white bold' /&gt;" Guid="b880314a-2a6a-4eb3-95e5-e43e0028d397" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1003, 982, 92, 18" CvTextArgument="Total Items:" CvType="Text" DesignTimeRectangle="1005, 977, 90, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl class='io-p' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl class='io-p' type='' tag='P' aaname='Total Items:' check:innerText='Total Items:' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="29076d80af168384fd0192f40b5f943f.png" xmlns="">0gEfJ8pdYB0e-nb2vA_D2BQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

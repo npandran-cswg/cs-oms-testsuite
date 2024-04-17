@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Item Type",
+  "Description": "Item type feild (regular , Ad , Ad/ Contract)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "UPh3pCMcoEKGRaLvQ3oIYQ",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/UPh3pCMcoEKGRaLvQ3oIYQ",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-23T17:42:44.4961813Z",
+  "Updated": "2023-11-23T17:42:44.4961813Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

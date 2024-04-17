@@ -1,0 +1,15 @@
+﻿{
+  "Name": "PO # Feild",
+  "Description": "PO input feild for rush order",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "lSTNtvA2UUq2ECALhym_Jg",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/lSTNtvA2UUq2ECALhym_Jg",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2023-11-23T14:51:55.9003524Z",
+  "Updated": "2023-11-23T14:51:55.9003524Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

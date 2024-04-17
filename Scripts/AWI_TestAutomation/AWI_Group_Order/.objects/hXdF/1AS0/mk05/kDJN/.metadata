@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Popup Message Text",
+  "Description": "Text from any Any Popup message  (Error , Success , Alert)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "kDJNNKNhjUiskiSJ3ZpOKg",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/kDJNNKNhjUiskiSJ3ZpOKg",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-20T14:02:02.4121576Z",
+  "Updated": "2023-11-23T13:39:55.1669864Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

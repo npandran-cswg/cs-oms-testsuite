@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sgZpSclEmEqzVCMPZp22xA" Reference="D9F-caV3OUejNlJ30AZkgg/wVnMmy3QjU-zMVIGHDwJ3g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-rush-order" CvElementArea="494, 483, 127, 41" CvType="InputBox" DesignTimeRectangle="487, 302, 125, 38" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aria-role='gridcell' idx='3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='gridcell' type='' tag='DIV' class='io-cell io-body-cell io-iogridstringcolumn io-cell-ro io-cell-left io-cell-odd io-cell-current-row has-error dirty' aaname='' /&gt;" Guid="efe68135-6ab9-4aac-bf5d-336faa7a147f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6064810220fd5dfb1d414daa4acb341f.png" xmlns="">0zrwD9cD770i5HmbhjpL8pA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

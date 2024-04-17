@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Pv13FjF6p028YdaFRUpq4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs" CvTextArea="1466, 475, 66, 18" CvTextArgument="Order #" CvType="Text" DesignTimeRectangle="1468, 469, 64, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Order #' aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Order #' aria-role='button' tag='DIV' type='' class='io-cell-header-inner overflow-ellipsis' check:innerText='Order #' /&gt;" Guid="0a71deea-e43f-4ae0-a1cf-b8087a096451" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1291, 475, 125, 22" CvTextArgument="Approval Type" CvType="Text" DesignTimeRectangle="1293, 469, 122, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Approval Type' aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Approval Type' aria-role='button' tag='DIV' type='' class='io-cell-header-inner overflow-ellipsis' check:innerText='Approval Type' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7d5b2450ea1a983463566c9bbe4a06ad.png" xmlns="">0I_1RgiKjp0ODZUJniQWZjA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

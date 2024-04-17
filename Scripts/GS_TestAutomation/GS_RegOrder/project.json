@@ -1,0 +1,252 @@
+{
+  "name": "GS_TestAutomation",
+  "projectId": "2d444524-c8ab-4da9-82f7-f61bdcdac2b3",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.GSuite.Activities": "[2.4.3]",
+    "UiPath.Mail.Activities": "[1.21.2]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.4.3]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.12.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "12.0.644",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d3edb66b-baa4-453e-b1fa-5d56da2d6800",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Ep.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "22b11ca2-7e8a-4d70-ab25-0c811f854f15",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Ep1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "87a70d1f-f69c-49af-8cbd-d11f5f76ec71",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "LogOutTC.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "343e690e-5a31-4937-a96c-107e79a6ddf7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "DivCom.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fe4f1906-89a6-432a-b7cd-3ef095e67e41",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS001_Test_Error_For_Invalid_Customer.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "62497617-da32-430d-ae0d-4d248854ef7a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS002_Test_Error_For Store_on_CreditHold.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b159ac9c-fd14-46ae-93d4-7139a5b83d53",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS003_Test_Error_When_No_Quantity.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "38416f04-4ad5-46d0-b407-c0124b842892",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS004_Test_Error_When_No_SellPrice.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "14a4c13c-9615-492b-a5e6-7cbf7d175a0c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS007_Test_Error_When_No_PoNumber_For_InternalOrder.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "28731520-6c5d-4082-9ba9-04931c83d841",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS005_Test_Internal_Toggle_Button.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8614d276-a674-4be6-aecf-a4eb0d5af1c5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS008_Validate_Contract_Item_For_StoreItem_Combination_In_Order_Screen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b0fd58e8-ec74-4880-8abb-b9bcbf7b4b5e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS009_Test_Error_When_Price_Override_IsGreaterThan_15Percentage.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4f8dc351-897e-4243-9f92-0a7f519cbce0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS010_Test_Error When_Item_Description_Is_Missing.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a2739c05-86e2-491c-90fd-c983914423b1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS011_Test_Order_Creation_when _No Cycle.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "06aca585-68de-4391-8040-b9282f361149",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS012_Test_Error_When GS_PrimaryShipFlag_Is_N.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5459f60a-dbcf-4634-b073-198eb77de0e4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS013_Test_Error_When_NoBilling_Schedule.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d55a0174-c4dc-427c-939d-cbeebe4c0f02",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_019_Test_Item_Related_Info_Populated.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "43164676-7627-495b-803b-879c3bfc2a80",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_021_Validate_Qty_Field_For_Numeric_AlphaNumeric.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a244e473-ee4f-42a6-a977-c48a5f52bdeb",
+        "testCaseType": "TestCase",
+        "fileName": "LoginTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7b7dd40d-ce3c-49bf-b535-e82c6530093c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Framework2.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ce6b28af-2986-401f-9cd7-b34f3b43769b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_073.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "78106a1e-addf-4406-9a6d-fdc9626a96a5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_071_Click_on_Item_Discription_new_tab_will_open_itemDetails_and_ItemSubstitution.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9935d8b7-dd68-4772-8115-b9aeece8ced6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_074_Save_Copy_Order_Order_Search.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "66ce72d3-af5c-4721-bc37-3ece599df8d8",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_075_Check_Home_And_Log_Out_Button.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d3480b7a-545b-4f9f-95a2-c4e61e3364a3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_070_Check_Item_Details_Info_At_The_Bottom_Of_Screen.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "03a128a7-fd32-40be-8833-2733f59179fa",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_076_Switching_Screen_from_RegularOder_to_Rush_vice_versa.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "448b9fab-2d16-456e-8a4b-6057678e4d34",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_078_Item_Authorization_for_Fiesta_Only_Items.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "111debd6-0310-4e2e-ade0-2e4269de0210",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS006_Submit_Order_and_get_confirmation_Id.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

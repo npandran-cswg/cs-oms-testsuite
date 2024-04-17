@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Save Button",
+  "Description": "Save Button for both Regular and Rush Order Screens",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "w9SkYLYmaUmi3-ahzyGkKw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/w9SkYLYmaUmi3-ahzyGkKw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2024-01-05T12:34:48.5813276Z",
+  "Updated": "2024-01-05T12:34:48.5813276Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

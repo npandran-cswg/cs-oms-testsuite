@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="voTsXWaKR02NNY2aVgVM_Q" Reference="D9F-caV3OUejNlJ30AZkgg/ZX8WtMV3OU6i7UY7oXg8cQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/oms-home" CvElementArea="1708, 195, 53, 45" CvType="Icon" DesignTimeRectangle="1727, 135, 42, 38" DesignTimeScaleFactor="1.25" FriendlyName="'EM'" FullSelectorArgument="&lt;webctrl tag='EM' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='EM' class='io-icon fas fa-home text-gray text-gray cursor' aaname='' /&gt;" Guid="53ce7423-829b-45b5-845d-02707f5545a9" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d2132df647cf1a21766951818cc18870.png" xmlns="">0sE22H8Wd7UGWjzQKaG0Akw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Get Text 'Switch'",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "DcpE-VshaEikLkZsGUPmVQ",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/DcpE-VshaEikLkZsGUPmVQ",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-09T09:17:44.0707204Z",
+  "Updated": "2023-11-23T12:03:21.2746905Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

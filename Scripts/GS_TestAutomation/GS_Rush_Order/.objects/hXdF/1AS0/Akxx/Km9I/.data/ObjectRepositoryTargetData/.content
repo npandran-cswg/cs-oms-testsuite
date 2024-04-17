@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Lj_gL8YwuE-Er3b52Jt1DQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-rush-order" DesignTimeRectangle="496, 497, 125, 38" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aria-role='gridcell' idx='3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='gridcell' type='' tag='DIV' class='io-cell io-body-cell io-iogridstringcolumn io-cell-ro io-cell-left io-cell-odd io-cell-current-row' aaname='' /&gt;" Guid="0dbd6c38-9720-41fb-a758-32cfe59dd070" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="505, 466, 83, 17" CvTextArgument="Item Code" CvType="Text" DesignTimeRectangle="507, 461, 82, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Item Code' aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Item Code' aria-role='button' tag='DIV' type='' class='io-cell-header-inner overflow-ellipsis' check:innerText='Item Code' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0325b59f33bc8b1990a674c4a876e8aa.png" xmlns="">04VtmBoCruEiITD5uc88wGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

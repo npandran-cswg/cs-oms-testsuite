@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9r7sf6E-10qNbWrn4S09Gw" Reference="D9F-caV3OUejNlJ30AZkgg/cQdS1G-FMU2UTBqJn9iyyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/oms-home" CvElementArea="1505, 125, 83, 36" CvTextArea="1514, 132, 65, 18" CvTextArgument="Switch" CvType="Button" DesignTimeRectangle="1597, 141, 78, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Switch'" FullSelectorArgument="&lt;webctrl aaname='Switch' aria-role='link' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Switch' aria-role='link' tag='SPAN' type='' class='io-badge badge badge-pill bg-rowBlack cursor io-badge-border border-white text-warning bold large-text b-white' check:innerText='Switch' /&gt;" Guid="96620a05-1f2d-4242-b0b2-829f56f1ced1" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1ec6119fc39d92c9d7cd7c52706ad326.png" xmlns="">0nVzyp8a540uWXjGAtZ6YqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,18 @@
+﻿{
+  "Name": "'Close' Button for Error Popups",
+  "Description": "Close button for any popus",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "K3Z8o-g1Z0GPQPaEFg2Znw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/K3Z8o-g1Z0GPQPaEFg2Znw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2023-11-08T09:30:58.4525378Z",
+  "Updated": "2023-11-30T06:55:10.6370277Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

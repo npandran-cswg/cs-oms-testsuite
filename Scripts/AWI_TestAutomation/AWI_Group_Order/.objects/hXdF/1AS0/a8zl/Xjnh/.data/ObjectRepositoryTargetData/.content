@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EG7BT9D3Jk6HrHtcL0aGhQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/regular-order//N" CvTextArea="1370, 238, 43, 18" CvTextArgument="Error" CvType="Text" DesignTimeRectangle="1372, 233, 484, 29" DesignTimeScaleFactor="1.125" ElementType="Text" FriendlyName="'Error'" FullSelectorArgument="&lt;webctrl parentid='tooltip' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='tooltip' tag='H5' type='' class='title' aaname=' Error ' check:innerText='Error' /&gt;" Guid="9517bcc0-bfe7-40f6-8c9e-729dd84c1285" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1810, 317, 43, 16" CvTextArgument="Close" CvType="Text" DesignTimeRectangle="1793, 308, 79, 37" ElementType="Button" FriendlyName="'Close'" FullSelectorArgument="&lt;webctrl aaname='Close' parentid='tooltip' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Close' parentid='tooltip' tag='BUTTON' type='' class='close-link btn btn-link' check:innerText='Close' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFMAAAApCAYAAABJCxWnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGwSURBVGhD7ZU9bsJAEIV9UtdI6WhyANpUXCAlZ/ABIBRx4YoKJSdImS7a6CGNNZrsmr+3CJRXfLLW63lef8wuzc9+nwQHySQimUQkk4hkEpFMIpJJRDKJSCYRySQimUQkk4hkEpFMIjeR2a1WqW3bkef5PH0Nwzj/vdull8Xi8JyvezSqyoQwiIMoCLP7JnfousNYMk/gdbn8I9LPWYdK5hE+1uv0NJuN3Rf53GzGrV6SCeH+eIhZGPv53A/nM7AerMvPM6kmEx8az8YSUaaNfb2JM6G4ejlWA3kYA9/9uQw21WRCzKUyoygDcqz7juWXdobP8PcZ3KXMUq2XbLJKnTaVceq6zuUutzmuue7xMjFGNt6ROxORYfcjDyeztM1y8+d0ZkmEibX5UkZNqskEU+eT/3OIMmMH+ppSHsDzyMS1lIF3TGVcQ1WZ1i1x8fggbDfr2ijTxr6z8KyvyXVelO1/MIz9brAaJlVlGvioqTMryszVlbpsKhfEd9cSCW4i878gmUQkk4hkEpFMIpJJRDKJSCYRySQimUQkk4hkEpFMIs3bdpsEh+a975Ng0KdfopxP3ye2hHAAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="765f9d5b3c6c265cbe95817ab5e15326.png" xmlns="">0wkauF1tHEUyVCtA_Xei4YA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

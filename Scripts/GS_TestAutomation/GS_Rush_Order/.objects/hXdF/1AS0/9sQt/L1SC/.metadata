@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Qty",
+  "Description": "Quantity input feild for rush order",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "L1SCFkLFuEKekiicDkWzmQ",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/L1SCFkLFuEKekiicDkWzmQ",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2023-11-23T14:23:43.0526617Z",
+  "Updated": "2023-11-23T14:24:15.658876Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

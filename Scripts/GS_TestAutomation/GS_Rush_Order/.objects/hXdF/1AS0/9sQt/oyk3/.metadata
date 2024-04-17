@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Route  pencil symbol",
+  "Description": "A pencil  symbol to enter route value (basically edit the route value) in rush order mass popup",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "oyk3AZc1WEKyCtjCwxmAbw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/oyk3AZc1WEKyCtjCwxmAbw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2023-11-23T15:03:58.4178983Z",
+  "Updated": "2023-11-23T15:04:49.8224776Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

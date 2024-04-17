@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WWSXJpcOJUq3DT_j1Cfp9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://csomsdev.cswg.com:7777/cloudio/#/app/oms-portal/gs-regular-order-entry-simple//030" CvElementArea="1632, 238, 36, 36" CvTextArea="1639, 246, 21, 20" CvType="Icon" DesignTimeRectangle="1633, 243, 43, 28" DesignTimeScaleFactor="1.25" FriendlyName="'EM'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;em' tag='EM' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='EM' class='io-icon pg-plus_circle text-primary text-primary cursor' aaname='' /&gt;" Guid="c6ae923f-3501-4c29-9661-e3cb743db651" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6bc58ef87b0bf65a9dd1385613bf39d0.png" xmlns="">06nEvhcR0-UqXc4mGbbj2bw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

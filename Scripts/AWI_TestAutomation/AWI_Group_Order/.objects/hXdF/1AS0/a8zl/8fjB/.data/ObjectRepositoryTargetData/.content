@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4FRhDWbqpEWeEyRlrETuWg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/group-order-entry" CvElementArea="1079, 663, 138, 43" CvTextArea="1143, 675, 30, 16" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="1081, 665, 135, 39" DesignTimeScaleFactor="1.125" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Yes' parentid='popup' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Yes' parentid='popup' tag='BUTTON' type='button' class='btn btn-primary btn-cons' check:innerText='Yes' /&gt;" Guid="599a5c59-3fc0-4a7c-914e-bcf3014ff461" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvElementArea="1202, 544, 19, 19" CvType="CloseButton" DesignTimeRectangle="1205, 547, 16, 16" FullSelectorArgument="&lt;webctrl parentid='popup' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='I' type='' class='pg-close fs-14' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2225d15a2f207c4cf39681ffb1003b4a.png" xmlns="">0n0HeWYbMH0-gKH0TO4xq3g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

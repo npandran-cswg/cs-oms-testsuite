@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="80-x-0U4RkitrC1YfiMSnA" Reference="D9F-caV3OUejNlJ30AZkgg/RpBBVnRTU0qE6iQR7xRwhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://csomsdev.cswg.com:7777/cloudio/#/app/oms-portal/oms-home" DesignTimeRectangle="753, 553, 431, 67" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'DivisionSelect...'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='popup' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='popup' tag='DIV' class='io-select form-group form-group-default' aaname='' /&gt;" Guid="243dfb62-1073-47ef-ab0d-0a2c22f55591" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="60" Y="-14" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="97175dc2777f85c1462136da11fd5a9f.png" xmlns="">0QL3UymPAoUyQuCe1dfJIVA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Regular Order Popups",
+  "Description": "Any Popup (Error, Order , warning) from Regular Order",
+  "Type": "Element",
+  "TaxonomyType": "Notification",
+  "Id": "UsxIjbJMpEO_0cRq5u4AhA",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/UsxIjbJMpEO_0cRq5u4AhA",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/Akxxs_siZEOo0if5vbHkeg",
+  "Created": "2023-11-10T18:35:34.0150089Z",
+  "Updated": "2023-11-23T12:10:28.2190474Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

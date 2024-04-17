@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Qty Error popup Text",
+  "Description": "Error popup for quantity not specify",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "SswJusn7VkWFAcMuu7NK9Q",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/SswJusn7VkWFAcMuu7NK9Q",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2023-11-08T09:27:34.0664716Z",
+  "Updated": "2023-11-20T14:01:10.7108554Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

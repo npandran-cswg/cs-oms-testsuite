@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Distro Order Created Successfully",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "BM1x2mOKDEuiGNI6LQ2Luw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/BM1x2mOKDEuiGNI6LQ2Luw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/Akxxs_siZEOo0if5vbHkeg",
+  "Created": "2024-02-21T11:02:44.3838444Z",
+  "Updated": "2024-02-21T11:03:14.5380331Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

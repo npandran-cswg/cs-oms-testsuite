@@ -1,0 +1,19 @@
+﻿{
+  "Name": "Customer",
+  "Description": "Customer Field  For both Regular and Rush Order Screens",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "BTiLHUhh1EGNgEIAffbA1A",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/BTiLHUhh1EGNgEIAffbA1A",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/Akxxs_siZEOo0if5vbHkeg",
+  "Created": "2023-11-09T15:28:39.5827313Z",
+  "Updated": "2024-03-06T13:20:09.8918947Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

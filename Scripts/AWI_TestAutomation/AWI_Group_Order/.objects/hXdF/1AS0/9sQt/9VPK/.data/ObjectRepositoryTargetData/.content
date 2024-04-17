@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2q9QIZ4hg0SY7Jv7DM59RQ" Reference="D9F-caV3OUejNlJ30AZkgg/9VPKOMmAP0erlJY3G6ASkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-rush-order" CvElementArea="1549, 284, 34, 33" CvTextArea="1588, 291, 68, 18" CvTextArgument="Internal" CvType="RadioButton" DesignTimeRectangle="1554, 232, 113, 27" DesignTimeScaleFactor="1.25" FriendlyName="'Internal'" FullSelectorArgument="&lt;webctrl aria-role='switch' tag='SPAN' /&gt;" FuzzyAccuracy="0.91" FuzzySelectorArgument="&lt;webctrl aria-role='switch' tag='SPAN' type='' class='switchery switchery-small off slidetoggle-rounded has-label' aaname='Internal' check:innerText='Internal' /&gt;" Guid="5a8a12aa-e2d3-4438-97b3-757fdb2748d2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1441, 238, 37, 12" CvTextArgument="Rush" CvType="Text" DesignTimeRectangle="1412, 233, 68, 25" ElementType="Text" FriendlyName="'checked'" FullSelectorArgument="&lt;webctrl aaname='Rush' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Rush' tag='LABEL' type='' class='' check:innerText='Rush' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEgAAAAdCAYAAAAJrioDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAL9SURBVGhD7ZfPaxNBFMf9g/a2BHIQCkJ6SW6lEOlFBBcCnnLw4KHEQ5fgSQgeikIkh7UXCxI9tIKJhxghacE2B0kguiAYaBYMbi4ift23m9nOJrOd/Ci0ibvwYcnsm9nMh3lvZm/8sm1EhBMJkhAJkhAJkiAV1OgM8eStDe35EMnHNm7t2O793jPbbafnon6rQqigk682HrwcukJkUBzFi8ZZdoSCXjfEImRQP9F4y8yEoHnlMFZNUkAQpYlo0rOySukWEDRtzZFB4/DjLjO+INqNRJNlGB9/o/fzL+iiO/0WxTFm3t0GFn587wWxBHGXQh27mxvY/SR6FsQXRFu2aKLEZ/OPK2b8onZRPEHj8S+S0jWgKQqUMeJ3C6iYgviFqEN3xtZromdBfEF0rhFNlFbKRVfYSqJzE/8iKa4gDUaXa7PaOHiUgpIsoDng2hdmDkHsEDgOS6uwi56L+tF4/IukiAQR1iFyyjoKx6yNJjcZV88r0PbM87bOIfTMGlR3JapY28rCOLFGzz1BudI+clujmJu3kdtroc/6j/AFiSZJTHOJ+hH8i6RcqqA2imnnd8mZMK08q4d2rYpTv6Z5gpTkQxgN061332oFpGMqcu+ZRI/rvYIGPVTy4yk2jaAjFBKcIC7OY7SC3gVlVHYUJJ4eBdp8QVQzRBOdtwZRTeNfJCWsSKdzKHf4WLEgmhyfYv3GC2TTcW+M5Abu5/dxesbiPUHjNYgkK/l6oM0XdD12sTsoHrNt3kR5W0XK+cPBukCT41OOaKG4GRTkQ8eHL3UUMiq3OuYQdOXnIFGKnVWhJ9ahf+BToYdyVoWaMbya4qRhs6i5hfZcUA8HJQPN7qifE0OyFxJEXOlJOqRI92s6UrEsXvFnIbPqrAi2Q8WR3n4Dg08xq4VyXsNazEtTL8YRukiKEdG32CQBQUT0NR9kQhAxr6RVk0MIBRGUJtPWJIpbpbTiCRXEoN2Itmw617DDJN3p3ETtM+9WS4ZU0P9OJEhCJEhCJOhCbPwDpOpoSlr49rcAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="23" Y="-9" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="eebb11f403173ea82e15165ef616f0ba.png" xmlns="">03wFkPgmI4kminxCRo8RPpg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

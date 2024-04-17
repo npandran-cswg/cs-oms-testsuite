@@ -1,0 +1,17 @@
+﻿{
+  "Name": "'Sell'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "p6j8jhElIEuO3W8892Eg6Q",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/p6j8jhElIEuO3W8892Eg6Q",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/Akxxs_siZEOo0if5vbHkeg",
+  "Created": "2024-04-09T11:47:06.9585296Z",
+  "Updated": "2024-04-09T12:06:22.816031Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.12.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

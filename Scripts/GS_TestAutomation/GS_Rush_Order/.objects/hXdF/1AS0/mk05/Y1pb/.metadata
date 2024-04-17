@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Switch Button",
+  "Description": "Switch button to confrim the switch preferences",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Y1pbFnMYs0K1BTKbvzlheA",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/Y1pbFnMYs0K1BTKbvzlheA",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-10T16:47:44.984944Z",
+  "Updated": "2023-11-22T17:29:54.5290983Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

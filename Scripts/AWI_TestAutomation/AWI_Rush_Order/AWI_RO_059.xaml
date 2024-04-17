@@ -1,0 +1,803 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="GS_OE_009_Add_New_Item_To_existing_Order_Update_Quantity" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="IO_Present_URL" Type="InOutArgument(x:String)" />
+    <x:Property Name="I_DataRow" Type="InArgument(ue:CurrentRowQuickHandle)" />
+    <x:Property Name="O_Output_msg" Type="OutArgument(x:String)" />
+    <x:Property Name="O_Ver_Result_Bool" Type="OutArgument(x:Boolean)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1388,5776</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>GS_OE_009_Add_New_Item_To_existing_Order_Update_Quantity_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence sap:VirtualizedContainerService.HintSize="1398.4,5711.2" sap2010:WorkflowViewState.IdRef="Sequence_61">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="List">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String" Value="" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="sd:DataTable" Name="DataTable" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="Count" />
+      <Variable x:TypeArguments="x:String" Name="DuplicateItem" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1336,5622.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <TryCatch.Try>
+        <Sequence sap:VirtualizedContainerService.HintSize="1299.2,5368" sap2010:WorkflowViewState.IdRef="Sequence_53">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Home Screen" sap:VirtualizedContainerService.HintSize="1236.8,5281.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1203.2,5041.6" sap2010:WorkflowViewState.IdRef="Sequence_66">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="ItemCode" />
+                    <Variable x:TypeArguments="sd:DataTable" Name="table" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <If Condition="[I_DataRow(&quot;OrderType&quot;).ToString = &quot;Rush Order&quot;]" sap:VirtualizedContainerService.HintSize="1140.8,4295.2" sap2010:WorkflowViewState.IdRef="If_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1107.2,4014.4" sap2010:WorkflowViewState.IdRef="Sequence_70">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="5" DisplayName="Type Into Customer" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1044.8,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Text="[I_DataRow(&quot;Customer&quot;).ToString + &quot;[k(Enter)]&quot;]" Version="V3">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-regular-order-entry-simple//030" ContentHash="bzXUqMIS00mJHWxDtwQMQQ" CvElementArea="204, 393, 179, 40" CvType="InputBox" DesignTimeRectangle="207, 417, 175, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='io-textfield-input form-control has-max-len' aaname='' /&gt;" Guid="1cc2cf04-5d62-48ac-b0bc-9da278b8e14a" InformativeScreenshot="78867cc5f31322b289c765e6988188db.png" IsResponsive="True" Reference="D9F-caV3OUejNlJ30AZkgg/BTiLHUhh1EGNgEIAffbA1A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CvTextArea="119, 406, 78, 15" CvTextArgument="Customer" CvType="Text" DesignTimeRectangle="67, 417, 130, 38" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Customer' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Customer' tag='LABEL' type='' class='col-4 control-label' check:innerText='Customer' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIYAAAAqCAYAAAB2pyMEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAH/SURBVHhe7ZbrbcIwFEY7UMYCNoFMAgyCBEsgwQx0ADe248SPzyUtqA9yfhxF8jv3nlzn7f12MwA5iAESxAAJYoAEMUCCGCBBDJAgBkgQAySIARLEAAligAQxQIIYIEEMkCAGSGYlxqltTNOkbA567NyZhxjnrVl1Eqz2l7T9sC7bnsLF7BZiv3/EDMQ4ms2PVwbE+PNc90vTLLbmKvoKugpSjtVi5dfS0N9Xp7hPVaq4X57PrbM0u0O83tqcivl9W4E/d32PIO/RPe2Y+B1fXIwvfrkTxShk6+al4tT3dXNtws9jm5csS3AQbNjHr5kmuW9rj+M8R3lmt0fybmG99CyBWYiRJu0TJorhglwkI6Ymhq4+sj1UjDhprlKotlQqJ19+vmK9mlQeKkbMRDHG60J/bdV93Txd+q1syfiqGNl80ZZfcyOlGLXYvPw/xv2vO2KqGAGXlDzglt8Xo5bwkZmL4QNX+7IzVOD76iDFcKgA14L+jKvkvhjTfrjnLkaH/+ETCemCmgbGJ2hs88HL557aOBE6wLVKVf35zBP5gBhB5uLdkvMghqcP1njfWrKAWlygQ79NTPk1u0QOYyrBjfbL+4OoA+qqe0QMS/G+2VqIAd8BMUCCGCBBDJAgBkgQAySIARLEAAligAQxQIIYIEEMkCAGSBADJIgBgpv5AKJK0F1eNoKuAAAAAElFTkSuQmCC" SearchSteps="Selector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NTypeInto.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NTypeInto>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="6" DisplayName="Click 'EM'" sap:VirtualizedContainerService.HintSize="1044.8,92.8" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/rush-order-maintenance" CvElementArea="217, 579, 31, 28" CvType="Icon" DesignTimeRectangle="221, 583, 23, 22" DesignTimeScaleFactor="1.125" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;em' tag='EM' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' tag='EM' class='io-icon fas fa-binoculars text-primary text-primary cursor' aaname='' /&gt;" Guid="803049c6-5864-4439-8a4c-e76f4d98644c" InformativeScreenshot="d348b5843d0c627d837bdefd6174101f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CvTextArea="314, 588, 68, 15" CvTextArgument="Item Code" CvType="Text" DesignTimeRectangle="266, 583, 117, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='P' class='io-p semi-bold normal-text' aaname='Item Code' check:innerText='Item Code' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NClick>
+                        <uix:NCheckState DisplayName="Check App State 'Item Code'" sap:VirtualizedContainerService.HintSize="1044.8,2181.6" sap2010:WorkflowViewState.IdRef="NCheckState_10" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,1923.2" sap2010:WorkflowViewState.IdRef="Sequence_100">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'contains'" sap:VirtualizedContainerService.HintSize="387.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/group-order-entry" CvElementArea="557, 410, 204, 31" CvType="InputBox" DesignTimeRectangle="654, 415, 58, 22" DesignTimeScaleFactor="1.125" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='contains' parentid='popup' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='contains' parentid='popup' tag='BUTTON' type='button' class='io-icon-btn entry-operator m-r-8' check:innerText='contains' /&gt;" Guid="28dc2ab4-cbf6-4d64-a78f-21e488cc1e3b" InformativeScreenshot="ba793d0d87532d9d83c0f027f49a7351.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CvElementArea="557, 410, 204, 31" CvType="InputBox" DesignTimeRectangle="571, 415, 74, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='popup' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='BUTTON' type='button' class='io-icon-btn m-r-8 font-600 entry-label overflow-ellipsis' aaname='Item Code' check:innerText='Item Code' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Item Code'" sap:VirtualizedContainerService.HintSize="387.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/group-order-entry" CvTextArea="659, 657, 62, 16" CvTextArgument="contains" CvType="Text" DesignTimeRectangle="648, 647, 260, 38" DesignTimeScaleFactor="1.125" FullSelectorArgument="&lt;webctrl aaname='contains' aria-role='menu' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='contains' aria-role='menu' tag='DIV' type='' class='io-menu-item io-enabled' check:innerText='contains' /&gt;" Guid="cd1b9e22-4295-4828-b0c0-88f58785c988" InformativeScreenshot="57c26ad5e1b18889d43f1a8c1b7f171d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CvTextArea="570, 418, 65, 14" CvTextArgument="Item Code" CvType="Text" DesignTimeRectangle="563, 413, 81, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-role='button' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' tag='SPAN' type='' class='entry-edit-span' aaname='Item Code' check:innerText='Item Code' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V3" />
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="2" DisplayName="Type Into 'contains'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_11" InteractionMode="DebuggerApi" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Text="[I_DataRow(&quot;ItemCode&quot;).ToString]" Version="V3">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/group-order-entry" CvElementArea="718, 410, 222, 32" CvType="InputBox" DesignTimeRectangle="722, 413, 197, 27" DesignTimeScaleFactor="1.125" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='popup' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='INPUT' type='text' class='input' placeholder='Enter filter value...' aaname='' /&gt;" Guid="6b382b7b-d4e8-4e58-a391-7e983e9085a5" InformativeScreenshot="f141ed6c94d63daf299c01aa0916e265.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CvTextArea="655, 420, 53, 13" CvTextArgument="contains" CvType="Text" DesignTimeRectangle="648, 413, 70, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='contains' aria-role='button' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='contains' aria-role='button' tag='SPAN' type='' class='entry-edit-span' check:innerText='contains' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                              </uix:NTypeInto>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="387.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/group-order-entry" CvElementArea="1379, 413, 24, 25" CvType="Icon" DesignTimeRectangle="1381, 416, 22, 23" DesignTimeScaleFactor="1.125" ElementType="Button" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' idx='2' isleaf='1' parentid='popup' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl type='button' class='io-search-refresh fal fa-redo io-icon-btn' isleaf='1' parentid='popup' tag='BUTTON' aaname='' /&gt;" Guid="92828727-377d-4c1f-b849-2f3858ba7ba7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFaSURBVEhL7ZXPi4JAFMf3z+9SVqQUBZVJGNFBCgrs2kGi8NI1Aq1DGIInheS7vGGWdtlp0opYlj7wQB8z85k3zI8PvIi36G7+nuhwOGA6naLZbKJWq6Hf72OxWCCKIt4C7Ns0TRyPR565cFMUBAE6nQ7K5TLG4zFWqxULx3GYrFQqYT6fI0kShGGIer2O7XbLe1+Qina7HVRVhW3bbCARNJFer4dut4v9fp9fROVTp+VyyTPXoUkMh0Poug5N0/KJLMvCaDTC+XzmGTmn04lJisVidhFV02g04Hkez4ihKgqFwo9QFAW+7/MWF4SizWbD1jyOY555HKHIdV0MBgP+9xyEovV6/RrRy5Yu62bIg1BE0PameBZXRXkObJqmLGRcFRF08CqVCmazmfQKarfbmEwmPCNGKiKoslarlelSlXFT9MX3Z6JarcIwjF/PhIzMokd5i+7mv4mATw5Coa/7WpkJAAAAAElFTkSuQmCC" InformativeScreenshot="e7254ec7187d97cf7c39ac70aed741c4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CvElementArea="1346, 413, 26, 26" CvType="CloseButton" DesignTimeRectangle="1349, 414, 23, 23" ElementType="Button" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' isleaf='1' parentid='popup' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl type='button' isleaf='1' parentid='popup' tag='BUTTON' class='io-search-clear pg-close io-icon-btn' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="387.2,100" sap2010:WorkflowViewState.IdRef="SetToClipboard_1" Text="[I_DataRow(&quot;Qty&quot;)]" />
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Qty'" sap:VirtualizedContainerService.HintSize="387.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/rush-order-maintenance" DesignTimeRectangle="636, 501, 83, 41" DesignTimeScaleFactor="1.125" FullSelectorArgument="&lt;webctrl aria-role='gridcell' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='gridcell' type='' class='io-cell io-body-cell io-iogridnumbercolumn io-cell-ro io-cell-center io-cell-odd io-cell-current-row bg-lightgray' tag='DIV' aaname='' /&gt;" Guid="5b2bd639-6edb-453d-a11e-4866ce195abd" InformativeScreenshot="60ab1765fe460a5caf5809e5c16d8e6b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CvTextArea="661, 475, 30, 18" CvTextArgument="Qty" CvType="Text" DesignTimeRectangle="664, 468, 27, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Qty' aria-role='button' parentid='popup' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Qty' aria-role='button' parentid='popup' tag='DIV' type='' class='io-cell-header-inner overflow-ellipsis' check:innerText='Qty' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <ui:GetFromClipboard Result="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get From Clipboard" sap:VirtualizedContainerService.HintSize="387.2,64.8" sap2010:WorkflowViewState.IdRef="GetFromClipboard_1" />
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V3" />
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Select'" sap:VirtualizedContainerService.HintSize="387.2,182.4" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/group-order-entry" CvElementArea="1182, 855, 114, 44" CvTextArea="1228, 867, 47, 16" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="1230, 868, 45, 17" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='popup' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='popup' tag='SPAN' type='' class='' check:innerText='Select' /&gt;" Guid="3452bcd3-c269-4b9d-a4b2-2d1850f122da" InformativeScreenshot="5aec670b33df16ee8f2086d047ae3c5b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CvElementArea="1182, 855, 114, 44" CvTextArea="1228, 867, 47, 16" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="1185, 857, 110, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='popup' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='popup' tag='BUTTON' type='button' class='io-button btn btn-primary' check:innerText='Select' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,106.4" sap2010:WorkflowViewState.IdRef="Sequence_101">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/group-order-entry" CvTextArea="569, 417, 76, 15" CvTextArgument="Item Code" CvType="Text" DesignTimeRectangle="571, 415, 74, 22" DesignTimeScaleFactor="1.125" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='popup' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='BUTTON' type='button' class='io-icon-btn m-r-8 font-600 entry-label overflow-ellipsis' aaname='Item Code' check:innerText='Item Code' /&gt;" Guid="e8e63d9b-5cfe-4597-afe5-348e28f9a761" InformativeScreenshot="19134ab1cbf26f434a9eb67d9065419b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
+                          </uix:NCheckState.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NCheckState>
+                        <uix:NCheckState DelayBefore="5" DisplayName="Check App State 'Item Settings'" sap:VirtualizedContainerService.HintSize="1044.8,1395.2" sap2010:WorkflowViewState.IdRef="NCheckState_18" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="496,1153.6" sap2010:WorkflowViewState.IdRef="Sequence_124">
+                              <Sequence.Variables>
+                                <Variable x:TypeArguments="x:String" Name="textAttribute" />
+                              </Sequence.Variables>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NHover DisplayName="Hover 'Item Settings'" sap:VirtualizedContainerService.HintSize="433.6,197.6" HoverTime="4" sap2010:WorkflowViewState.IdRef="NHover_2" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                                <uix:NHover.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/rush-order-maintenance" CvElementArea="1333, 717, 33, 32" CvType="Icon" DesignTimeRectangle="1327, 721, 46, 23" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aria-role='button' idx='4' parentid='grid-other' tag='EM' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' parentid='grid-other' tag='EM' class='io-icon fas fa-star text-default text-default cursor' aaname='' /&gt;" Guid="26f68001-d481-4267-a235-816f5bf2e57f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAAbCAYAAAA+nNxPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAH9SURBVFhH7Zi7awJBEMbzt/pCOFBEEEQQFQTBSrCw1MJOsFXE5gpFRPEBVgqKjVio4APFx4RZVsFkE+92Zwkk+eAr7oTd+d3M7M35Br9E/yB2dDwe4Xq98is90g5Sr9fB5XJBJBKBzWbD79JLKwgGjgAOh4O5UqnwX+ilFaRWq4HT6XyAhMNhbVnRBrLdbiEejz8g7taVFW0gpmk+ZeNuXVnRAvJVNtAIhyVHLVKQ0+kEy+USSqWSMBt3h0Ih6Ha7LDNUx7IUyO12g+l0CtVqFXK5HCsXr9crDNqKfT4fJBIJKBQK0Gw24XA48J2sSwpkNpuxzUVBUTibzcLlcuG7WdPfBsHSajQa4PF4hIGoOJlMwnq95jtZl1Kzt1otpd746FQqxU48GSmBoDqdDhiGIQzMjtPpNOz3e76qfSmDoAaDgVLPqEKgSEBQvV5PKjPYE6oQKDKQ8XgsBZLJZGyfUCKRgWDjiwJ95VgsBrvdjq8iLzKQcrksDPSV/X4/zOdzvoq8SECwNLBERIG+stvtZoeFqkhAsDSwRESBooPB4Lf9QzENk4AsFgsIBAKfAoxGozAajdgkgIMgTsWiFygOi6oiAZlMJk9PHKfhfr8vHNERqFgsPgHhBK0qEpDz+cyeKpZXu9229I2xWq0gn8+zPyeGwyG/Ky8SkJ8XwDvUQugVEhlP2gAAAABJRU5ErkJggg==" InformativeScreenshot="515ccaaba0843a58cd12efe849afc134.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CvTextArea="1209, 682, 105, 20" CvTextArgument="Item Settings" CvType="Text" DesignTimeRectangle="1210, 675, 104, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Item Settings' aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Item Settings' aria-role='button' tag='DIV' type='' class='io-cell-header-inner overflow-ellipsis' check:innerText='Item Settings' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NHover.Target>
+                              </uix:NHover>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Item Settings'" sap:VirtualizedContainerService.HintSize="433.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/rush-order-maintenance" CvElementArea="1333, 717, 33, 32" CvType="Icon" DesignTimeRectangle="1327, 721, 46, 23" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aria-role='button' idx='4' parentid='grid-other' tag='EM' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' parentid='grid-other' tag='EM' class='io-icon fas fa-star text-default text-default cursor' aaname='' /&gt;" Guid="c51ee5df-d985-4125-a37e-878f9021d5b3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAAbCAYAAAA+nNxPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAH9SURBVFhH7Zi7awJBEMbzt/pCOFBEEEQQFQTBSrCw1MJOsFXE5gpFRPEBVgqKjVio4APFx4RZVsFkE+92Zwkk+eAr7oTd+d3M7M35Br9E/yB2dDwe4Xq98is90g5Sr9fB5XJBJBKBzWbD79JLKwgGjgAOh4O5UqnwX+ilFaRWq4HT6XyAhMNhbVnRBrLdbiEejz8g7taVFW0gpmk+ZeNuXVnRAvJVNtAIhyVHLVKQ0+kEy+USSqWSMBt3h0Ih6Ha7LDNUx7IUyO12g+l0CtVqFXK5HCsXr9crDNqKfT4fJBIJKBQK0Gw24XA48J2sSwpkNpuxzUVBUTibzcLlcuG7WdPfBsHSajQa4PF4hIGoOJlMwnq95jtZl1Kzt1otpd746FQqxU48GSmBoDqdDhiGIQzMjtPpNOz3e76qfSmDoAaDgVLPqEKgSEBQvV5PKjPYE6oQKDKQ8XgsBZLJZGyfUCKRgWDjiwJ95VgsBrvdjq8iLzKQcrksDPSV/X4/zOdzvoq8SECwNLBERIG+stvtZoeFqkhAsDSwRESBooPB4Lf9QzENk4AsFgsIBAKfAoxGozAajdgkgIMgTsWiFygOi6oiAZlMJk9PHKfhfr8vHNERqFgsPgHhBK0qEpDz+cyeKpZXu9229I2xWq0gn8+zPyeGwyG/Ky8SkJ8XwDvUQugVEhlP2gAAAABJRU5ErkJggg==" InformativeScreenshot="515ccaaba0843a58cd12efe849afc134.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CvTextArea="1209, 682, 105, 20" CvTextArgument="Item Settings" CvType="Text" DesignTimeRectangle="1210, 675, 104, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Item Settings' aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Item Settings' aria-role='button' tag='DIV' type='' class='io-cell-header-inner overflow-ellipsis' check:innerText='Item Settings' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="class" DisplayName="Get Attribute 'Item Settings'" sap:VirtualizedContainerService.HintSize="433.6,248" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_5" Result="[textAttribute]" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                                <uix:NGetAttributeGeneric.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/rush-order-maintenance" CvElementArea="1333, 717, 34, 32" CvType="Icon" DesignTimeRectangle="1327, 721, 46, 23" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aria-role='button' idx='4' parentid='grid-other' tag='EM' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' parentid='grid-other' tag='EM' class='io-icon fas fa-star text-success text-success cursor' aaname='' /&gt;" Guid="d11d6703-3595-4150-b4dd-bb50d57a26e6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAAbCAYAAAA+nNxPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIeSURBVFhH7ZdLK4RRGMd9BLcQkoVQQikLOwtljYW18gWILG2klAWlKOUDyMLGwsJ13EKNMTMYxmWM28xojNu4jr/zTO+o0WHGuUT4138x7zTveX7zPM85z0nAL9E/yFfke3rEw0vI+KRH2kHajhxINk+i0DYH+9218VS9tIJQ4ASQaJ4Iu+lwy/hGvbSCtLgdSDIgyPk2E2xBPVnRBrJzf4sS+/wbRMS6sqINpP3YGZWNiHVlRQvIR9kgExyVnGopBfE/P2LpJoCGfSs3GxHnWWfR63GFNwNV27IQSAgvGL3woNm9hertVeRbTUhbm+IGHY+zLNMotS+g1mlG5+ke3A93xkrxSwhkLOBDJlucF5QKVzlWEAw9G6vFp78NQqXVcbKL1LVJbiAyLttYwLrAribV7F2snmV6473LNxbhZDueiKRASD2eA2RY5GEqNpfgEmjyiKRBSANet1TPyEKQlICQ+rwupAtkhnpCFoKkDGTYfyoEUulY/vIOxZMyEGp8XqCxXMxGmb37oPEWcSkDaTywcQON5WzWW+OX58ZbxKUEhEqDSoQXaCynsLOINgtZKQGh0qAS4QVKzl2f+bR/WhVMw0pATNd+5LBg3wdYxK65Q+dH4UmABkGainkHKA2LslICMuI/izoU6fLU7z3kjugEVL9riQKiCVpWSkBuWI/UsX+Vyqv7bD+uO4YleIUa9psCBj3o+yE98v0CXgFXRGLsCCqb4AAAAABJRU5ErkJggg==" InformativeScreenshot="1c39121731090e2a62af37c2cedb51ff.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CvTextArea="1209, 682, 105, 20" CvTextArgument="Item Settings" CvType="Text" DesignTimeRectangle="1210, 675, 104, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Item Settings' aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Item Settings' aria-role='button' tag='DIV' type='' class='io-cell-header-inner overflow-ellipsis' check:innerText='Item Settings' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NGetAttributeGeneric.Target>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </uix:NGetAttributeGeneric>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,184" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[textAttribute]" />
+                              <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[textAttribute.Contains(&quot;io-icon fal fa-spin fa-spinner text-success text-success&quot;)]" sap:VirtualizedContainerService.HintSize="433.6,130.4" sap2010:WorkflowViewState.IdRef="VerifyExpression_29" OutputMessageFormat="[O_Output_msg]" Result="[O_Ver_Result_Bool]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                              <Assign sap:VirtualizedContainerService.HintSize="433.6,105.6" sap2010:WorkflowViewState.IdRef="Assign_18">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[O_Output_msg]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">["Allocate item for minimum BOH has been clicked "]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="496,328" sap2010:WorkflowViewState.IdRef="Sequence_125">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[1&lt;&gt;1]" sap:VirtualizedContainerService.HintSize="433.6,130.4" sap2010:WorkflowViewState.IdRef="VerifyExpression_28" OutputMessageFormat="[O_Output_msg]" Result="[O_Ver_Result_Bool]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                              <Assign sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="Assign_19">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[O_Output_msg]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">["Allocate item button not found "]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/rush-order-maintenance" CvElementArea="1332, 717, 34, 32" CvType="Icon" DesignTimeRectangle="1327, 721, 46, 23" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aria-role='button' idx='4' parentid='grid-other' tag='EM' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' parentid='grid-other' tag='EM' class='io-icon fas fa-star text-default text-default cursor' aaname='' /&gt;" Guid="1a826a74-355e-407e-8b09-6d12495ecd71" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADIAAAAbCAYAAAA+nNxPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIQSURBVFhH5ZhNq3FRFMefD+cj+ARESpGUkhJKKSNlYMjATJmSmQFJ5KWMKDKRAcpLycu6/Xfb7fHcfa/j7LW7g+dXa3JOzl6/s9Y+1jl/yAClUokcDocycM4ERkSASsaUBDAmAv6WKRaL8qgZjIqARCJBTqeTYrEY7XY7eZQfoyJIHAIul0tErVaTZ/gxKtJoNMjtdn+KRKNRY1UxJrLf7ymZTH5KPMJUVYyJNJvNp2o8wlRVjIh8Vw0E5NBy3LCKnM9nWq/XVKlUlNV4RCQSoX6/Lypzu93kr/WwJXK/32k+n1O9XqdCoSDaxefzKZO2EoFAgFKplPjfabfbdDqd5ErWsSWyWCzE4qqkOCKfz9P1epWrWeP/FkFrtVot8nq9ykR0Ip1O03a7lStZR2uzdzodrb3xb2QyGfHEs4OWCOj1euT3+5WJvRPZbJaOx6O86vtoi4DRaKS1Z3QlAIsIGAwGtiqDPaErAdhEptOpLZFcLvf2E0oFmwg2virRV4H3lcPhIK9iHzaRarWqTPRVBINBWi6X8ir2YRFBa6BFVIm+Co/HIx4WurCIoDXQIqpEEeFw+Mf9wzENs4isVisKhUJfEozH4zSZTMQkgEEQU7HqD5Tj6wqLyGw2e7rjmIaHw6FyRIdQuVx+EsIErQuLyOVyEXcV7dXtdi29Y2w2G/GJCB8nxuOxPGofFpHfh+gDCtjGXq72ZwcAAAAASUVORK5CYII=" InformativeScreenshot="67a08567a18f4850a9214b1fea150361.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CvTextArea="1209, 682, 72, 17" CvTextArgument="Item Sett" CvType="Text" DesignTimeRectangle="1210, 675, 104, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Item Settings' aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Item Settings' aria-role='button' tag='DIV' type='' class='io-cell-header-inner overflow-ellipsis' check:innerText='Item Settings' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NCheckState.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NCheckState>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,102.4" sap2010:WorkflowViewState.IdRef="Sequence_77">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="3" DisplayName="Click 'New Order'" sap:VirtualizedContainerService.HintSize="1140.8,197.6" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="http://csomsdev.cswg.com:7777/cloudio/#/app/oms-portal/gs-regular-order-entry-simple//030" ContentHash="WWSXJpcOJUq3DT_j1Cfp9w" CvElementArea="1632, 238, 36, 36" CvTextArea="1639, 246, 21, 20" CvType="Icon" DesignTimeRectangle="1633, 243, 43, 28" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;em' tag='EM' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='EM' class='io-icon pg-plus_circle text-primary text-primary cursor' aaname='' /&gt;" Guid="c6ae923f-3501-4c29-9661-e3cb743db651" InformativeScreenshot="6bc58ef87b0bf65a9dd1385613bf39d0.png" Reference="D9F-caV3OUejNlJ30AZkgg/v8F3wzPSxkCfXXSYtSLhQg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Click 'DB Exception Close'" sap:VirtualizedContainerService.HintSize="1140.8,197.6" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/regular-order//N" ContentHash="mVYXyEkNZkmyDxCNnmj5DA" CvTextArea="2683, 612, 78, 26" CvTextArgument="Close" CvType="Text" DesignTimeRectangle="2652, 594, 141, 66" DesignTimeScaleFactor="2" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Close' parentid='tooltip' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Close' parentid='tooltip' tag='BUTTON' type='' class='close-link btn btn-link' check:innerText='Close' /&gt;" Guid="9698bd4e-56f8-4213-a470-7ad01feafd64" InformativeScreenshot="3aeb3d452d57ba1ca9021104c26906ed.png" Reference="D9F-caV3OUejNlJ30AZkgg/RF55Fhya_0O-GiqtWjGweA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NCheckState DelayBefore="1" DisplayName="Confirm to Leave the Page" sap:VirtualizedContainerService.HintSize="1140.8,92.8" sap2010:WorkflowViewState.IdRef="NCheckState_19" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,272.8" sap2010:WorkflowViewState.IdRef="Sequence_114">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirm to Leave the Page'" sap:VirtualizedContainerService.HintSize="387.2,182.4" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/group-order-entry" CvElementArea="1079, 663, 138, 43" CvTextArea="1143, 675, 30, 16" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="1093, 648, 150, 43" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Yes' parentid='popup' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Yes' parentid='popup' tag='BUTTON' type='button' class='btn btn-primary btn-cons' check:innerText='Yes' /&gt;" Guid="4e0eede5-da9f-4bc4-b7c1-a9389c6d75d2" InformativeScreenshot="17a34f723ebce30b4f09856d679bcdae.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CvElementArea="1202, 544, 19, 18" CvType="CloseButton" DesignTimeRectangle="1232, 517, 17, 18" FullSelectorArgument="&lt;webctrl parentid='popup' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='I' type='' class='pg-close fs-14' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,106.4" sap2010:WorkflowViewState.IdRef="Sequence_115">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/group-order-entry" CvTextArea="714, 566, 75, 18" CvTextArgument="Confirm" CvType="Text" DesignTimeRectangle="689, 532, 81, 32" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='popup' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='H5' type='' class='semi-bold' aaname='Confirm' check:innerText='Confirm' /&gt;" Guid="17637617-d09a-4613-8708-95a177d3d668" InformativeScreenshot="d0a6a6a6b3d9c45bf54302e52e10173d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CvElementArea="1202, 544, 19, 18" CvType="CloseButton" DesignTimeRectangle="1232, 517, 17, 18" FullSelectorArgument="&lt;webctrl parentid='popup' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='I' type='' class='pg-close fs-14' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheckState.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NCheckState>
+                  <uix:NCheckState DelayBefore="1" DisplayName="Confirm to Leave the Page" sap:VirtualizedContainerService.HintSize="1140.8,92.8" sap2010:WorkflowViewState.IdRef="NCheckState_20" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,272.8" sap2010:WorkflowViewState.IdRef="Sequence_116">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirm to Leave the Page'" sap:VirtualizedContainerService.HintSize="387.2,182.4" sap2010:WorkflowViewState.IdRef="NClick_28" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1278b50c-7f54-43d6-970f-3e2b5727c8d1" Version="V3">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/rush-order-maintenance" CvElementArea="1090, 646, 153, 48" CvTextArea="1164, 661, 31, 17" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="1093, 648, 150, 43" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Yes' parentid='popup' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Yes' parentid='popup' tag='BUTTON' type='button' class='btn btn-primary btn-cons' check:innerText='Yes' /&gt;" Guid="afd9fd24-430d-4b31-88bd-da1960a5845d" InformativeScreenshot="285f4a15679b6f4ccc6534dc486713f9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CvTextArea="686, 538, 82, 21" CvTextArgument="Confirm" CvType="Text" DesignTimeRectangle="689, 532, 81, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='popup' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='H5' type='' class='semi-bold' aaname='Confirm' check:innerText='Confirm' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,106.4" sap2010:WorkflowViewState.IdRef="Sequence_117">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/rush-order-maintenance" CvTextArea="686, 538, 82, 21" CvTextArgument="Confirm" CvType="Text" DesignTimeRectangle="689, 532, 81, 32" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='popup' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='H5' type='' class='semi-bold' aaname='Confirm' check:innerText='Confirm' /&gt;" Guid="5ebef325-df82-4879-bc27-a6db2ae3d8ce" InformativeScreenshot="526ee96883ce3df0935cac8a29cbf836.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CvElementArea="1229, 515, 20, 20" CvType="CloseButton" DesignTimeRectangle="1232, 517, 17, 18" FullSelectorArgument="&lt;webctrl parentid='popup' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='I' type='' class='pg-close fs-14' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheckState.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NCheckState>
+                  <uix:NGetUrl CurrentUrl="[IO_Present_URL]" DelayBefore="2" DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="1140.8,77.6" sap2010:WorkflowViewState.IdRef="NGetUrl_2" Version="V3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NGetUrl>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="6c560a7f3f0957382647e54f20ee4e9a.jpg" Selector="&lt;html app='chrome.exe' title='CloudIO' /&gt;" Title="CloudIO" Url="[IO_Present_URL]" />
+            </uix:NApplicationCard.TargetApp>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NApplicationCard>
+        </Sequence>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="1302.4,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="Excp" />
+            </ActivityAction.Argument>
+            <Sequence sap:VirtualizedContainerService.HintSize="416,80.8" sap2010:WorkflowViewState.IdRef="Sequence_55">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Rethrow sap:VirtualizedContainerService.HintSize="531.2,64.8" sap2010:WorkflowViewState.IdRef="Rethrow_1" />
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="531.2,424.8" sap2010:WorkflowViewState.IdRef="CommentOut_15">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,323.2" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign sap:VirtualizedContainerService.HintSize="433.6,123.2" sap2010:WorkflowViewState.IdRef="Assign_7">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[Exception]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String" xml:space="preserve">["Exception occured  
+@Source: " +Excp.Source + vbCrLf + "@Exception Message:   " + Excp.Message]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Exception" Expression="[1&lt;&gt;1]" sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="VerifyExpression_10" OutputMessageFormat="[Exception]" Result="[O_Ver_Result_Bool]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uta:VerifyExpression>
+                  </Sequence>
+                </ui:CommentOut.Body>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:CommentOut>
+            </Sequence>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+      <TryCatch.Finally>
+        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_17">
+          <ui:CommentOut.Body>
+            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="916.8,1298.4" sap2010:WorkflowViewState.IdRef="Sequence_59">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence sap:VirtualizedContainerService.HintSize="854.4,1212" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="792,858.4" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+                  <ui:IfElseIf.ConditionBlocks>
+                    <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                      <ui:IfElseIfBlock BlockType="If" Condition="[O_Ver_Result_Bool =True]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_1">
+                        <ui:IfElseIfBlock.Then>
+                          <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,148" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                            <ui:MultipleAssign.AssignOperations>
+                              <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="x:Object">[DTOrder.Rows(0).Item("Execution Status")]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="x:Object">["Pass"]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="x:Object">[DTOrder.Rows(0).Item("Comment")]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="x:String">[O_Output_msg]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                              </scg:List>
+                            </ui:MultipleAssign.AssignOperations>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:MultipleAssign>
+                        </ui:IfElseIfBlock.Then>
+                      </ui:IfElseIfBlock>
+                      <ui:IfElseIfBlock BlockType="ElseIf" Condition="[O_Ver_Result_Bool = False]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_2">
+                        <ui:IfElseIfBlock.Then>
+                          <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,148" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+                            <ui:MultipleAssign.AssignOperations>
+                              <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="x:Object">[DTOrder.Rows(0).Item("Execution Status")]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="x:String">["Fail"]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="x:Object">[DTOrder.Rows(0).Item("Comment")]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="x:String">[O_Output_msg]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                              </scg:List>
+                            </ui:MultipleAssign.AssignOperations>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:MultipleAssign>
+                        </ui:IfElseIfBlock.Then>
+                      </ui:IfElseIfBlock>
+                      <ui:IfElseIfBlock BlockType="Else" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_3">
+                        <ui:IfElseIfBlock.Then>
+                          <Sequence sap:VirtualizedContainerService.HintSize="449.6,164.8" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:CommentOut sap:VirtualizedContainerService.HintSize="387.2,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_16">
+                              <ui:CommentOut.Body>
+                                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="540.8,260" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,148" sap2010:WorkflowViewState.IdRef="MultipleAssign_4">
+                                    <ui:MultipleAssign.AssignOperations>
+                                      <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                                          <ui:AssignOperation.To>
+                                            <OutArgument x:TypeArguments="x:Object">[DTOrder.Rows(0).Item("Execution Status")]</OutArgument>
+                                          </ui:AssignOperation.To>
+                                          <ui:AssignOperation.Value>
+                                            <InArgument x:TypeArguments="x:String">["Fail"]</InArgument>
+                                          </ui:AssignOperation.Value>
+                                        </ui:AssignOperation>
+                                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+                                          <ui:AssignOperation.To>
+                                            <OutArgument x:TypeArguments="x:Object">[DTOrder.Rows(0).Item("Comment")]</OutArgument>
+                                          </ui:AssignOperation.To>
+                                          <ui:AssignOperation.Value>
+                                            <InArgument x:TypeArguments="x:String">[Exception]</InArgument>
+                                          </ui:AssignOperation.Value>
+                                        </ui:AssignOperation>
+                                      </scg:List>
+                                    </ui:MultipleAssign.AssignOperations>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </ui:MultipleAssign>
+                                </Sequence>
+                              </ui:CommentOut.Body>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </ui:CommentOut>
+                          </Sequence>
+                        </ui:IfElseIfBlock.Then>
+                      </ui:IfElseIfBlock>
+                    </sc:BindingList>
+                  </ui:IfElseIf.ConditionBlocks>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:IfElseIf>
+                <Assign sap:VirtualizedContainerService.HintSize="792,81.6" sap2010:WorkflowViewState.IdRef="Assign_8">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:Object">[DTOrder.Rows(0).Item("Execution dateTime")]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="s:DateTime">[Now()]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <ueab:WriteRangeX Destination="[Excel.Sheet(&quot;Sheet1&quot;).Range(Row)]" DisplayName="Write DataTable to Excel" ExcludeHeaders="True" sap:VirtualizedContainerService.HintSize="792,160" sap2010:WorkflowViewState.IdRef="WriteRangeX_1" IgnoreEmptySource="False" Source="[DTOrder]" />
+              </Sequence>
+            </Sequence>
+          </ui:CommentOut.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:CommentOut>
+      </TryCatch.Finally>
+    </TryCatch>
+  </Sequence>
+</Activity>

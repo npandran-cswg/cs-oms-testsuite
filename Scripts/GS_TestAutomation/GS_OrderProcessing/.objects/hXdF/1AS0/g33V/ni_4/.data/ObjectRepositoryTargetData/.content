@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Tx4Io5pP8kewA1tcU8M8kQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/orderedits////" CvTextArea="299, 222, 94, 16" CvTextArgument="Customer #" CvType="Text" DesignTimeRectangle="287, 209, 291, 42" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aria-role='menu' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='menu' tag='DIV' type='' class='io-menu-item io-enabled' aaname='Customer #' check:innerText='Customer #' /&gt;" Guid="52980194-5284-4af4-bce6-ea9156982af7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CvElementArea="577, 208, 23, 23" CvType="ArrowButton" DesignTimeRectangle="577, 208, 23, 24" ElementType="ArrowButton" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5182e1e3ec41e238c38b8861025201d7.png" xmlns="">0tS-pzpU-_EaDTQyfw-hClw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

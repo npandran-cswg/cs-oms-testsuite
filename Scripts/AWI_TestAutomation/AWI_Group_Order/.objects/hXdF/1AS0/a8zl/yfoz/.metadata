@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Item Code",
+  "Description": "Item code input feild for AWI regular and rush order",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "yfozAup-FEeB4lQF0et44g",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/yfozAup-FEeB4lQF0et44g",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/a8zlUWheo0C1488tvJiiZw",
+  "Created": "2023-12-01T13:27:09.0948648Z",
+  "Updated": "2023-12-13T12:44:12.4966557Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

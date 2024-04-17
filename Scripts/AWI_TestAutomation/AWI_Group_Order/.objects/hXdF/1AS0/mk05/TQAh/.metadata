@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Confirm to Leave the Page",
+  "Description": "Confrim to Leave page OR Confrim to Discard the Changes clicking on 'Yes' button\r\n",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "TQAhu27hOk-l-Klo2esvow",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/TQAhu27hOk-l-Klo2esvow",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-07T16:52:33.2352497Z",
+  "Updated": "2023-11-22T16:43:19.0797376Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

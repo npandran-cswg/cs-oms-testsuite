@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FHUloimr3E65N2Hiyi1xBg" Reference="D9F-caV3OUejNlJ30AZkgg/RI9m5-QozUC-b3iuQffbuA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://csomsdev.cswg.com:7777/cloudio/#/app/oms-portal/regular-order//N" CvElementArea="202, 277, 195, 42" CvType="InputBox" DesignTimeRectangle="206, 274, 108, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT customerNbrField-…'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='io-textfield-input form-control has-max-len' aaname='Customer' /&gt;" Guid="0f804a11-b745-4744-860d-8d73ca34127b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="121, 291, 75, 15" CvTextArgument="Customer" CvType="Text" DesignTimeRectangle="116, 285, 80, 16" ElementType="Text" FriendlyName="'Customer'" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='io-p normal-text' aaname='Customer' check:innerText='Customer' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGMAAAAgCAYAAAAG98ZXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAG7SURBVGhD7ZUBjoQgDEX3rF6DaxgPMp7Da3gNVqAIlDKQnQT/ZPsSMxGlQh/t/FgFBpUBhMoAQmUAoTKAUBlAqAwgVAYQKgMIlQGEygBCZQDxmIzzZeyyLMVlXic9/Z88IOOwq0v+dtA9ce7W8LFPONZL8Hp97XuYLOO0u5lUASqjw2iC3Htmv9TlhIpa88mumrI2F+ccWzbmr/KbVYvkFRnX6X/pHYpdzK3W6KDKb73DY2fPp8rwSRppRUMy+P1VdVs2J26abiNBVD4eqrX4XkzUvdYswWysrHK+Jvre29iJ6TKGWtSIDF8Vxu6tcJKM1hw+LswNFSGMZev09zzJYmx53V9cGRSvccpEGWJcR6iOO3ZLBpvLx+71VNd70ZGpMqQNiQzKCFCbcZvOpTwko1v5KDLiH26dUIa04N5cPqcZ44M21ZExdNhgZDj8YoQT5BJyn2z+55hO/y3jen/NY/BNNhIfWkmeDIrdqaoRGeGbwp96r2KJ+TI8Idmpp7qLJY6kpWesTdHG0zv1BlMPL5/x3l4djL/KcFTrkvYFJUORUBlAqAwgVAYQKgMIlQGEygBCZQChMmCw9hetsvhesYeMewAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f914467c95200f59ead0cd83e262bc8.png" xmlns="">0azzZ4kQdh064NQarM4yn_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

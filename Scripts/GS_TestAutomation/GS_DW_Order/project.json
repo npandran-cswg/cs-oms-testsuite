@@ -1,0 +1,268 @@
+{
+  "name": "GS_TestAutomation",
+  "projectId": "2d444524-c8ab-4da9-82f7-f61bdcdac2b3",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Open.Linq.AsyncExtensions": "[1.2.0]",
+    "System.Linq": "[4.3.0]",
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.GSuite.Activities": "[2.4.3]",
+    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.4.3]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "12.0.644",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5871958d-6f79-49b9-83d5-7297fb51d75e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "LoginTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d3edb66b-baa4-453e-b1fa-5d56da2d6800",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Ep.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "22b11ca2-7e8a-4d70-ab25-0c811f854f15",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Ep1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7b7dd40d-ce3c-49bf-b535-e82c6530093c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Framework.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "87a70d1f-f69c-49af-8cbd-d11f5f76ec71",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "LogOutTC.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "343e690e-5a31-4937-a96c-107e79a6ddf7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "DivCom.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3e9afbb4-f29e-4331-a8bb-3fb8d4533b64",
+        "testCaseType": "TestCase",
+        "fileName": "EmailAuto.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "afc89781-a8aa-4937-ab60-92fdcaa51535",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW01_Test_Distro_New_Button.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1fbfca85-9049-4e82-a083-eeacc696f6c4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW02_Test_Distro_Invalid_Item.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c26872e7-5750-4523-aae6-3aaacb640497",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW03_Test_Distro_Duplicate_Item.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e08859c7-aefe-4535-a6d0-6db852b64a5f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW04_Test_Distro_Item_Description.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f115f165-f598-4cac-94a7-8bcbeee3e46e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW05_Test_Distro_Item_Code_Line_Level_Information.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e6a1b040-cdc1-4d74-b4de-4f358df4b4bd",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW06_Test_Customer_Length.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9be0e017-830e-4a14-94fa-0077df20ff7e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW07_Test_Distro_Copy_Paste_from_Excel.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "089f2a27-bc67-42fa-b3f9-df542ec30e4a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW08_Test_Distro_Copy_Paste_From_Excel_Duplicate_Alert.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7a3c35ad-72ca-43c4-9adc-adfc73e98187",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW09_Test_Distro_Qty_Price_Attribute.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f926ad79-4a75-49ef-a26e-58c0851b4936",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW11_Test_Distro_Create_Order.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7793aa32-f0b5-43f6-8fc7-4568e49e2485",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d9ecab25-2192-466a-bc9a-533bc4fdf920",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW12_Test_Distro_New_Customer.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "dfd73940-5d0b-4970-be79-7c008444a1b2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW13_Test_Distro_Ease_Entering_ItemCode.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "df2ae4c9-aa4d-4d6d-bb3c-f194c4c3c30c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW14_Test_Distro_Download_Excel_Orders_Placed.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "54ea23e5-0bf2-4734-b507-98807c8ea113",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW10_Test_Distro_Copy_Paste_Qty.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "05b1f34c-57c3-434d-aa5b-e0be241a531a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW15_Test_Distro_Price_Copy_Paste.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0fa178ce-d858-401e-81f0-cc755407a4b9",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW16_Test_Distro_Qty_0_Null.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b4ecf0a0-1ed7-403f-8e4e-c726031db99b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW17_Test_Distro_Customer_Numeric_Valid_Four_Digit.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "281fde80-6362-4462-a0be-ae050895f7e1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW18_Test_Distro_Pricing_R_A_C.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fce9665e-0664-41fb-aeed-57de5fe8b393",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW19_Test_Distro_Name_Biling_Plan_Cycle_Price_Populate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "030b920a-e083-4ae3-9cf1-9f161903e857",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW20_Test_Distro_Change_Billing_Date_Show_Line_LEvel.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f0e802c1-79fa-482d-a9d6-40a45cd58eab",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW21_Test_Distro_Homepage_Preferences_Signout.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f257d619-17bb-4f63-b07e-b6ebe556e7de",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "GS_DW22_Test_Distro_BillingDate_Manually.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

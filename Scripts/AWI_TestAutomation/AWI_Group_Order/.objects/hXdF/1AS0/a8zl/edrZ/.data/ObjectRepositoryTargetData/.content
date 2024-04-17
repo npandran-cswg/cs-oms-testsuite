@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OK36Sgh8UEW6QCeQ1NdV-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/regular-order//N" DesignTimeRectangle="1372, 338, 437, 20" DesignTimeScaleFactor="1.125" ElementType="Text" FriendlyName="'Confirmation Id:'" FullSelectorArgument="&lt;webctrl class='body' parentid='tooltip' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='body' parentid='tooltip' tag='SPAN' type='' /&gt;" Guid="a9f60836-276f-4328-add6-d05e2026cc00" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="1372, 298, 484, 29" ElementType="Text" FriendlyName="'Order Submitted'" FullSelectorArgument="&lt;webctrl parentid='tooltip' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='tooltip' tag='H5' type='' class='title' aaname='Order Submitted Successfully' check:innerText='Order Submitted Successfully' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="473c46b9ca6691f98a9a81fea139762a.png" xmlns="">0Fw1OVCDBtEujinVFSgdemg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

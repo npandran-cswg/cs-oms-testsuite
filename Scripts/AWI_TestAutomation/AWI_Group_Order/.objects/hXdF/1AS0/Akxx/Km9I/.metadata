@@ -1,0 +1,18 @@
+﻿{
+  "Name": "'Item Code'",
+  "Description": "Item Code input feild  for regular Order",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Km9I0snUZEOBk0wsqGxkUA",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/Km9I0snUZEOBk0wsqGxkUA",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/Akxxs_siZEOo0if5vbHkeg",
+  "Created": "2023-11-23T11:51:17.4959183Z",
+  "Updated": "2023-11-29T09:19:52.1320636Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

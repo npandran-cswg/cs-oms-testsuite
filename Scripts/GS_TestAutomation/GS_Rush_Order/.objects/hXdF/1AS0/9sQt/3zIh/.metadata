@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cycle DropDown",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "3zIhvJG6uE614mdf1dD6Dw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/3zIhvJG6uE614mdf1dD6Dw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2024-03-07T16:50:05.3941125Z",
+  "Updated": "2024-03-07T16:50:05.3941125Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

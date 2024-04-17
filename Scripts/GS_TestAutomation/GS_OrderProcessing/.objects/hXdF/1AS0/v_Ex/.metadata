@@ -1,0 +1,12 @@
+﻿{
+  "Name": "GS Order Edit Screen",
+  "Type": "Screen",
+  "Id": "v_ExdH7YvU6CerOiIKCJIA",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/v_ExdH7YvU6CerOiIKCJIA",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/1AS0cMKcl0CbjD1uUEHcvA",
+  "Created": "2024-01-31T15:05:05.8809512Z",
+  "Updated": "2024-01-31T15:05:05.8809512Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

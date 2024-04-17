@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SVWH8ZVePkyPhB9mbI45ig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-rush-order" CvTextArea="1483, 315, 102, 13" CvTextArgument="INVALID ITEM" CvType="Text" DesignTimeRectangle="1485, 308, 363, 24" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='INVALID ITEM' parentid='tooltip' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='INVALID ITEM' parentid='tooltip' tag='DIV' type='' class='' check:innerText='INVALID ITEM' /&gt;" Guid="5c3acc0f-4b41-443b-9626-eb7ed4e30943" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="1484, 270, 48, 20" CvTextArgument="Error" CvType="Text" DesignTimeRectangle="1485, 263, 363, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='tooltip' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='tooltip' tag='H5' type='' class='title' aaname='Error' check:innerText='' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5d81795500fb985ab70aa5e8b55f7755.png" xmlns="">0QxaWIhM5L0ydPbL5qnc0vA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

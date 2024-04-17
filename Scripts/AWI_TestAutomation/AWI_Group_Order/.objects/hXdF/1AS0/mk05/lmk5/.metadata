@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Simple Order Entry",
+  "Description": "Simple Order Entry for GS Orders ",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "lmk5p_4aoE2Me71qmAFa8g",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/lmk5p_4aoE2Me71qmAFa8g",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-28T18:16:44.133862Z",
+  "Updated": "2023-11-28T18:16:44.133862Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

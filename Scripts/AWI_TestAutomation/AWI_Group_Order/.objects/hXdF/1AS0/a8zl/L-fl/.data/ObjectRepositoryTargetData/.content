@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YBeb-5NkNUim6ZCCM727RQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://csomsdev.cswg.com:7777/cloudio/#/app/oms-portal/regular-order//N" CvElementArea="767, 646, 64, 41" CvType="InputBox" DesignTimeRectangle="611, 582, 135, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT quantitySearchFie…'" FullSelectorArgument="&lt;webctrl class='form-control' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl class='form-control' tag='INPUT' type='text' aaname='Qty' /&gt;" Guid="d3deadc8-d41b-4ac7-b2e2-b870df04723f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="729, 658, 30, 20" CvTextArgument="Qty" CvType="Text" DesignTimeRectangle="536, 582, 55, 38" ElementType="Text" FriendlyName="'Qty'" FullSelectorArgument="&lt;webctrl aaname='Qty' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Qty' tag='LABEL' type='' class='col-6 control-label normal' check:innerText='Qty' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEsAAAAqCAYAAAD75qYVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFcSURBVGhD7ZbhDYIwEIUdiMHsLMRRGiYxcQwThqh3bUVsr+gz+qP4vqQJlELCxzuuh0DehrIAKAuAsgAoC4CyACgLgLIAKAuAsgAoC4CyACgLgLIAKAuAsgD6l3UewzAMT8NNc774XTqWNQd/VDku+GueiuT5o5ejkksYReZ4zqcg3cqaJyeiRnl9iyzsVF79S1nppTfLLZbnSqZRrklaEls/qxbbp6yrD64qv4K4pkyRnayY0rJsS9nCfmWZYlplqPPPz7uc6rTtPFnlmpasUk4tT/mff1akLSuuv5eiHlfNoVtZv+iGek9Kk6bMWtOtrEVIIz32PqvV+RL6Adzk5X77I3QsK5ES9tgOLMOUJay2EFV6cgdtyexelk1OVxwvGsGaF41jp7I+w9xvraCsha2ff4KyBO1+WrKbWxGBsgAoC4CyACgLgLIAKAuAsgAoC4CyACgLgLLeJoQbBLxQhRmlXb4AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5a80b8f88f7f3b5206ca48d2f52846d1.png" xmlns="">0Gc8JYGUZgkyAUmn65-tzxw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Credit hold popup No button",
+  "Description": "Customer Credit hold and no bill warning popup for still what to continue the order",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "OZoCv3vTtk6gbOOlwlWXTw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/OZoCv3vTtk6gbOOlwlWXTw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2023-11-30T06:13:55.8040047Z",
+  "Updated": "2023-11-30T06:13:55.8040047Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

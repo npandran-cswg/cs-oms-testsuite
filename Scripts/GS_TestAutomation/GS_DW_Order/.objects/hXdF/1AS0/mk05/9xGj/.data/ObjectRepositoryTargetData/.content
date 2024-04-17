@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="K2b0iVfeckykcx2Rbxa-0A" Reference="D9F-caV3OUejNlJ30AZkgg/9xGjmXQomkS1CGwZbPqazA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://csomsdev.cswg.com:7777/cloudio/#/app/oms-portal/oms-home" CvTextArea="123, 257, 188, 21" CvTextArgument="GS Order Management" CvType="Text" DesignTimeRectangle="9, 180, 256, 44" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Order Management'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='io-button btn dropdown-toggle text-white btn-lg btn-link' aaname='* Order Management' check:innerText='Order Management' /&gt;" Guid="dc6f9e70-c427-48ea-8696-5864d5b72bb2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="-36" Y="-17" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="bdaaae4be5acd3dc9b4f883fa6cbaa7c.png" xmlns="">0WfZwnff6nUWfB1CrDtEjNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

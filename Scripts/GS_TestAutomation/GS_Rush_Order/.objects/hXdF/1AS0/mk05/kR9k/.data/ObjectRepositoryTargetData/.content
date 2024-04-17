@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gSB94dpP3k6gAIsT4Ynk4A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://csomsdev.cswg.com:7777/cloudio/#/app/oms-portal/regular-order//N" CvElementArea="751, 568, 433, 71" CvType="InputBox" DesignTimeRectangle="757, 597, 393, 35" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Select...'" FullSelectorArgument="&lt;webctrl aaname='Select...' parentid='popup' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select...' parentid='popup' tag='DIV' type='' class='Select-placeholder css-1wa3eu0-placeholder' check:innerText='Select...' /&gt;" Guid="bac4343b-64b4-431f-b89e-d7ef128740ac" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="82" Y="-9" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="745997540bdf3f86633db1e19b785ce0.png" xmlns="">0VQoITgn0OkmFeXjyxiCRpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

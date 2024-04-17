@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cm2bVZe_FkuaP5kkPIEw4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-rush-order" CvElementArea="580, 255, 145, 45" CvTextArea="591, 268, 81, 18" CvTextArgument="AD Items" CvType="Button" DesignTimeRectangle="584, 257, 136, 40" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aria-role='switch' parentid='builder' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='switch' parentid='builder' tag='SPAN' type='' class='switchery switchery-default on slidetoggle-rounded has-label' aaname='AD Items' check:innerText='AD Items' /&gt;" Guid="b9a40225-f30b-4ef3-8b25-3d37fcb1a5a5" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="eac7db1a94c8f02e0fa51fb74cec7c68.png" xmlns="">0bXKVcH4kZEaybOBLpPAdzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

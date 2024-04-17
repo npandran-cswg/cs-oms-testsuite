@@ -1,0 +1,18 @@
+﻿{
+  "Name": "RushOrder CheckBox",
+  "Description": "Rsuh Order Check box",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "569fAKzxF0a1oNraGzaLTA",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/569fAKzxF0a1oNraGzaLTA",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-10T12:08:21.3293924Z",
+  "Updated": "2023-11-28T18:20:36.3183254Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

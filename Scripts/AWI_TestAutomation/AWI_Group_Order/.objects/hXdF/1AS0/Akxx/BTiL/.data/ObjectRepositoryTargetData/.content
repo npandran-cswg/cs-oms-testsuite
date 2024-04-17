@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bzXUqMIS00mJHWxDtwQMQQ" Reference="D9F-caV3OUejNlJ30AZkgg/BTiLHUhh1EGNgEIAffbA1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-regular-order-entry-simple//030" CvElementArea="204, 393, 179, 40" CvType="InputBox" DesignTimeRectangle="207, 417, 175, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT customerNbrField-…'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='io-textfield-input form-control has-max-len' aaname='' /&gt;" Guid="1cc2cf04-5d62-48ac-b0bc-9da278b8e14a" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="119, 406, 78, 15" CvTextArgument="Customer" CvType="Text" DesignTimeRectangle="67, 417, 130, 38" ElementType="Text" FriendlyName="'Customer'" FullSelectorArgument="&lt;webctrl aaname='Customer' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Customer' tag='LABEL' type='' class='col-4 control-label' check:innerText='Customer' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIYAAAAqCAYAAAB2pyMEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAH/SURBVHhe7ZbrbcIwFEY7UMYCNoFMAgyCBEsgwQx0ADe248SPzyUtqA9yfhxF8jv3nlzn7f12MwA5iAESxAAJYoAEMUCCGCBBDJAgBkgQAySIARLEAAligAQxQIIYIEEMkCAGSGYlxqltTNOkbA567NyZhxjnrVl1Eqz2l7T9sC7bnsLF7BZiv3/EDMQ4ms2PVwbE+PNc90vTLLbmKvoKugpSjtVi5dfS0N9Xp7hPVaq4X57PrbM0u0O83tqcivl9W4E/d32PIO/RPe2Y+B1fXIwvfrkTxShk6+al4tT3dXNtws9jm5csS3AQbNjHr5kmuW9rj+M8R3lmt0fybmG99CyBWYiRJu0TJorhglwkI6Ymhq4+sj1UjDhprlKotlQqJ19+vmK9mlQeKkbMRDHG60J/bdV93Txd+q1syfiqGNl80ZZfcyOlGLXYvPw/xv2vO2KqGAGXlDzglt8Xo5bwkZmL4QNX+7IzVOD76iDFcKgA14L+jKvkvhjTfrjnLkaH/+ETCemCmgbGJ2hs88HL557aOBE6wLVKVf35zBP5gBhB5uLdkvMghqcP1njfWrKAWlygQ79NTPk1u0QOYyrBjfbL+4OoA+qqe0QMS/G+2VqIAd8BMUCCGCBBDJAgBkgQAySIARLEAAligAQxQIIYIEEMkCAGSBADJIgBgpv5AKJK0F1eNoKuAAAAAElFTkSuQmCC" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="78867cc5f31322b289c765e6988188db.png" xmlns="">01BV98Cq7T0SuHjYOMhOxmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,259 @@
+{
+  "name": "AWI_Automation",
+  "projectId": "2d444524-c8ab-4da9-82f7-f61bdcdac2b3",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.GSuite.Activities": "[2.4.3]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.4.3]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.12.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "12.0.644",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5871958d-6f79-49b9-83d5-7297fb51d75e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "LoginTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d3edb66b-baa4-453e-b1fa-5d56da2d6800",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Ep.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "22b11ca2-7e8a-4d70-ab25-0c811f854f15",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Ep1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7b7dd40d-ce3c-49bf-b535-e82c6530093c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Framework.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "87a70d1f-f69c-49af-8cbd-d11f5f76ec71",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "LogOutTC.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "343e690e-5a31-4937-a96c-107e79a6ddf7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "DivCom.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "709f6451-ef20-4e53-b521-f818f5511a59",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_005.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3ee1b839-06cb-44ba-9eb0-7fc432415e35",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_004.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "72256f93-5464-4e17-8e14-56003f476509",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_006.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8303308f-c490-4ebc-a24e-c38232307ba3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_007.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6fc30eb3-9453-4cef-821f-882f065271e2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_010.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "efacb80f-544e-4cf8-a4b1-33e6853e6ab7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_011.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6396cbf2-fcc2-4e16-a321-8a14e3b764db",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_008.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fbabc0c4-61ea-4c68-a2f5-0652eeb74316",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_012.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d64ddf24-191a-4a99-b712-7854de37b6e3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_013.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2a43f106-dbd2-4625-aedb-445f2f6d975c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_016.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b73d8cbc-353c-4e77-899f-47a6a60a5e35",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_017.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "968c6a2c-4721-481a-8eb3-2e472640da17",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_043.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "86bb1c6d-b1c4-46ba-8e18-8ba0060974ef",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_042.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "be7d2258-cfcd-48ac-8705-02a1554948b1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_041.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3070f0c1-fed6-4ce7-9465-ac040c17b0ba",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_021.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "325f8777-081f-4af4-bbb2-ee11646ecee0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_030.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8e81cd49-1368-428e-8e78-5b5902080ba8",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_032.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f78b19a1-bc15-4a16-bf1e-77590e98fbb3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_034.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a8bb7d66-d8d5-492e-bd15-f4991d1b6f12",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_036.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3f8ce4a6-e550-4d1c-bd55-c3ba27bfb5d7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_039.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2c066767-4e00-41da-897e-7f6e38a96c64",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_040.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7d486fea-a8ac-4f13-ba90-6c4480d3c1a4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_035.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4cbc57a3-6b0e-400f-99b2-712a450f8607",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI_GO_029.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

@@ -1,0 +1,18 @@
+﻿{
+  "Name": "GS Order Management",
+  "Description": "GS Order Menu button",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "9xGjmXQomkS1CGwZbPqazA",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/9xGjmXQomkS1CGwZbPqazA",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-28T18:15:11.6763104Z",
+  "Updated": "2023-11-30T15:59:01.6591421Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

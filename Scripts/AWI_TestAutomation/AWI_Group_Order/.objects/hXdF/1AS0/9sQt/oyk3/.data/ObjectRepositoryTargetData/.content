@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1AQ2g_znmkeVYSv2wAlSLg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-rush-order" CvElementArea="1092, 532, 25, 27" CvType="Icon" DesignTimeRectangle="1097, 533, 18, 23" DesignTimeScaleFactor="1.25" FriendlyName="'EM'" FullSelectorArgument="&lt;webctrl css-selector='a[class=&amp;quot;text-primary cursor&amp;quot;]' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='grid-other' tag='EM' class='fas fa-pencil' aaname='' /&gt;" Guid="c58eec16-9d7b-4e6c-a46a-98409b8e33ee" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAE1SURBVEhLzdS9SwMxGMdx/zYdFRxddHVxcvBPUAfFQUEXQVHoriIouIgiiG+IIijSoVC6FE9sk+v1kvt5Ty4XjJ70mkbwC89wL3zgciFD+KP+J3z+LLB/E+srO2f45DHG2DLD9mmk79g5wU91ifEVhuH5tj+41pQIWIK14wgjC57g/POnNzmarQzfOevqp3al4Rylz6fJ8ctXod+wKwV/R7/iLEr0W3Y94d/QfA5uHbZbL5Tm6L5PuAw6uxsiLP53xXBZNGgXry/1A/aBUhbsC6UMHKfbcWaLY3Gvo2YQlDJwqwNMbXBcVQUO7+KBUMrAjfcEk+tcnQU83fT1N6kwF5Qy8EtDKmSuEuKhJlC56GJilTmhlIGvqxlMM7qUHTR0yHyE/aOUgYVMlyNI1DL4yMB+Az4BwmUI3UW7YXEAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8b15f9b6ef49008d0172516f81ef0c5c.png" xmlns="">0fxQpF4J_a0SZbJmUjGOWeQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

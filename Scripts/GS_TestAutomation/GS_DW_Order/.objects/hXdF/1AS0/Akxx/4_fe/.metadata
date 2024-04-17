@@ -1,0 +1,17 @@
+﻿{
+  "Name": "'Qty'",
+  "Description": "Qty input field for Regular Order ",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "4_feYCme3kSyKgbiPibWhw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/4_feYCme3kSyKgbiPibWhw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/Akxxs_siZEOo0if5vbHkeg",
+  "Created": "2023-11-23T11:54:30.3630212Z",
+  "Updated": "2023-11-29T09:25:02.4088063Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

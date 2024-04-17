@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gtdkWIsMUUiOLIZaCo6Lhg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-regular-order-entry-simple//030" CvTextArea="1243, 867, 36, 12" CvTextArgument="Select" CvType="Text" DesignTimeRectangle="1211, 859, 82, 29" DesignTimeScaleFactor="0.8333333730697632" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='popup' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='popup' tag='BUTTON' type='button' class='io-button btn btn-primary' aaname='Select' check:innerText='Select' /&gt;" Guid="41f38cea-7525-4b92-885c-7b11c4136502" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CvElementArea="1208, 858, 85, 32" CvTextArea="1243, 867, 36, 12" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="1245, 867, 33, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='popup' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='popup' tag='SPAN' type='' class='' check:innerText='Select' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3ea14436e5a883ab9cbd5b63a7126dce.png" xmlns="">3ea14436e5a883ab9cbd5b63a7126dce.png</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

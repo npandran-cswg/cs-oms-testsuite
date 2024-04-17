@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Error Indication",
+  "Description": "Error indication for Invalid Customer in Regular Order Screen ",
+  "Type": "Element",
+  "TaxonomyType": "Notification",
+  "Id": "5_Q2ZWDDEE-0o9rMI6Y0Lg",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/5_Q2ZWDDEE-0o9rMI6Y0Lg",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/Akxxs_siZEOo0if5vbHkeg",
+  "Created": "2023-11-10T08:44:26.2604176Z",
+  "Updated": "2023-12-26T12:21:41.0596539Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

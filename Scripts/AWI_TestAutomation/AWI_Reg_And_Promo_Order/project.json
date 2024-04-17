@@ -1,0 +1,476 @@
+{
+  "name": "AWI_TestAutomation",
+  "projectId": "2d444524-c8ab-4da9-82f7-f61bdcdac2b3",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.GSuite.Activities": "[2.4.3]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.4.3]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "12.0.644",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5871958d-6f79-49b9-83d5-7297fb51d75e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "LoginTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d3edb66b-baa4-453e-b1fa-5d56da2d6800",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Ep.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "22b11ca2-7e8a-4d70-ab25-0c811f854f15",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Ep1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7b7dd40d-ce3c-49bf-b535-e82c6530093c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Framework.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "87a70d1f-f69c-49af-8cbd-d11f5f76ec71",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "LogOutTC.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "343e690e-5a31-4937-a96c-107e79a6ddf7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "DivCom.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fe4f1906-89a6-432a-b7cd-3ef095e67e41",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI001_Test_Error_For_Invalid_Customer.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "62497617-da32-430d-ae0d-4d248854ef7a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI002_Test_Error_For Store_on_CreditHold.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b159ac9c-fd14-46ae-93d4-7139a5b83d53",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI003_Test_Error_When_No_Quantity.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "38416f04-4ad5-46d0-b407-c0124b842892",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI004_Test_Error_When_No_SellPrice.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b0fd58e8-ec74-4880-8abb-b9bcbf7b4b5e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI005_Test_Error_When_Price_Override_IsGreaterThan_15Percentage.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3693b5b2-9899-40f9-b0b8-868e73b0325e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI006_Test_Error When_Item_Description_Is_Missing.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b57cc3a5-3e1a-44e3-81db-fddf5016bba8",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI007_Test_Switch_Home_Icon_Preferences.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a04fa0a2-b06a-4186-a8e3-731e7aee451a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI008_Test_InvalidCustomerID.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0a0437e6-c660-4bd5-a07c-6775782a5b95",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI009_Test_MaximumLength.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8bb70aa6-9414-4363-aaca-af42b6a5f3b1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI011_Test_MarkedNotToBill.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "feb42cd2-8a22-4116-b651-80aed60cdbca",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI015_Test_ForceExtract.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "85254a19-8c0d-484e-8675-27d46ad3ef41",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI016_Test_DeliveryType.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "dc4d8b64-1ea4-4573-8aa9-bb6df7ff2302",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI017_Test_MSITrigger.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c5139503-646c-47ee-98b7-780b0fa61100",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI018_Test_IgnoreLeadTimes.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d3bd0f49-81a6-42fb-ba90-4ccf2c7530c6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI019_Test_OverrideOrderMinimum.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a7339163-0014-4ae3-8ffb-fc092425b92a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI020_Test_ExtPO.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "60916174-d660-4f46-9df1-e260a516d38c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI021_Test_InquireBilling.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "610348d2-c787-4aa1-99c2-d5e2e8092713",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI014_Test_ValidateSelectCancel.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b92c6e08-1e3c-42a2-be0d-8efe69d0a01d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI012_Test_PartialIDSearch.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7602d20b-249f-4362-b2db-05016d760e47",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI010_Test_DefaultFields.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "920fc1c6-2626-4ba7-81fb-604fb8a5ae6f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI013_Test_PartialNameSearch.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4ab6d078-9d55-4bef-bbd0-bde479ac2e69",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI022_Test_ItemCodeFieldRestrictions.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "afa38b3e-2d7c-49aa-83b7-d11989cf022d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI023_Test_ItemRelatedInfo.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3a1ae9b6-c31e-4204-9fb9-adcb06df63d5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI024_Test_InvalidItemCode.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ff50a127-fa25-4b2b-a31f-8b3632f3916d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI026_Test_ValidateAtionButtons.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "cf04ed66-c952-4dbb-9cc9-491d03563200",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI027_Test_ItemCodeHyperlink.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6e423685-d411-41cb-af3b-f6a40446b3e3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI029_Test_QtyFieldRestrictions.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "43a59a94-1bc5-45f5-af56-e0908e884c6b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI030_Test_CheckScheduleInfo.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f21220b0-bb30-42fd-ae66-a37050359d3e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI031_Test_TimeRemaining.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "290183d8-4331-4d45-83e8-b9c2aa550349",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI032_Test_SaveOrder.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "49cd1443-0081-4fcc-b423-7a347f26a30e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI033_Test_SubmitOrder.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6958e588-90eb-4474-bbe5-4ddd153c98af",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI034_Test_ChangeQuantityItemCode.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bf56c61a-bf0d-42b4-a71a-4f620458a531",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI035_Test_RunRTOE.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ee1c7598-c1d8-42ac-8884-7d82d28084b4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI036_Test_PriceOverride.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1015905d-e9f9-48a7-9a9c-4af7d6e5061b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI037_Test_HeaderNotes.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "60e8d202-b0b6-4a7a-bea2-349bb9e390d1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI038_Test_CopyOrder.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "27aad23d-388b-4f21-989d-b02309fafa56",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI039_Test_CopyOrderCancel.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1ab40c63-caa0-4b3a-81b2-9fe8765e160f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI040_Test_NewIcon.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "cb785e6a-ccc3-406c-ab2d-9f171036a8b6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI041_Test_ScreenNavigationSelectYes.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c3ded75e-8d01-4f77-bc86-19b80b373d9f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI042_Test_ScreenNavigationSelectNo.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "812a2e2a-e3ef-469b-ab85-77adfe3da279",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI043_Test_DeleteOrder.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3f277def-596b-48ec-8b7a-fdf9308c1771",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI044_Test_CreateOrderWithXRef.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e4b1ea6a-e667-4234-8fc9-54914cbaed9d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI045_Test_SkipOrderLimit.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "70ef51c7-fcbe-485d-a00c-6341e2d21884",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI046_Test_ItemCodeSearchIcon.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9ef95d9a-dec1-4884-9824-b35e245fe124",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI047_Test_TrailerInfoChange.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8af1f180-86ce-4aba-8768-9fe996aeb51a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI048_Test_ItemSubstitute.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "77193723-9003-4ef1-a75a-80bcb8389cac",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI049_Test_ItemCodeFrameFilters.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ef75347e-16d6-497e-8358-e3e142841c4e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI050_Test_InvalidCustomerID.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d1cdc9ab-8485-4e73-a8ad-c09e79a94a38",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI051_Test_ExtPO.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "360c5f55-730b-4993-a8bb-535a3744686f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI052_Test_ScreenSetup.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9cf03308-d11a-49e7-b5fb-21fa4447e6b8",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI053_Test_ItemCodeFieldRestrictions.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e691380c-c92e-49e2-8846-405e4547681e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI054_Test_ItemCodeHyperlink.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a2879b79-4aa8-4f73-bb0c-c7c105718594",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI055_Test_DepartmentLOV.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6a4dfad2-9ef6-47ad-8e40-b1e7d1af4f50",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AWI056_Test_Switch.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

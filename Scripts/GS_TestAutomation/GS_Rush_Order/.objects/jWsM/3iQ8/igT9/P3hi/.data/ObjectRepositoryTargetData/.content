@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jRm3UGjz2kGvYb284yEUNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs" CvTextArea="871, 218, 152, 22" CvType="AnyWordGroup" DesignTimeRectangle="873, 218, 149, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Demand Summary' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='' /&gt;" Guid="e7ccd80e-ebed-4ae0-b365-9fee91063dd3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="871, 218, 152, 22" CvTextArgument="Demand Summary" CvType="Text" DesignTimeRectangle="827, 206, 247, 44" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Demand Summary' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Demand Summary' tag='BUTTON' type='button' class='io-button btn dropdown-toggle text-lightgray btn-lg btn-link' check:innerText='Demand Summary' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="031b9592ca3b1bd57f06910878e74c63.png" xmlns="">0PC54bWJwo06nnM-1X4o9Wg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

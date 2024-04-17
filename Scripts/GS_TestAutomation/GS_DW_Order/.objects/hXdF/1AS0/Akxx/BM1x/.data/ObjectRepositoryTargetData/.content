@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JwhPuId7hUe1wYySgBjG4w" Reference="D9F-caV3OUejNlJ30AZkgg/3K5ZiH6_u0OfVaqesZzTHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/distro-rush-workbench" DesignTimeRectangle="1530, 338, 178, 20" DesignTimeScaleFactor="1.125" ElementType="Text" FriendlyName="'Distro Order Created Successfully'" FullSelectorArgument="&lt;webctrl class='body' parentid='tooltip' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='body' parentid='tooltip' tag='SPAN' type='' aaname='Distro Created Successfully' check:innerText='Distro Created Successfully' /&gt;" Guid="0c54c205-dd58-4d36-b98b-5a58089dbae6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="76a7906c06d1b435ee1e0027a0773e00.png" xmlns="">0i2dy-an14UWQJZAwe193bw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

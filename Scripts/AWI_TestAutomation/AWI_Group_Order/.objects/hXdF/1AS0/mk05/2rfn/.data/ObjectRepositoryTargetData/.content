@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kjczqp8NPEyhajQdkQac0A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://csomsdev.cswg.com:7777/cloudio/#/app/oms-portal/oms-home" CvElementArea="1536, 140, 52, 33" CvTextArea="1544, 145, 35, 18" CvTextArgument="010" CvType="Button" DesignTimeRectangle="1540, 142, 47, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'010'" FullSelectorArgument="&lt;webctrl aaname='010' aria-role='link' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='link' tag='SPAN' type='' class='io-badge badge bg-complete text-white cursor large-text' /&gt;" Guid="b2fc4986-4cae-4319-b397-7d3c33b9053e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CvTextArea="1446, 148, 87, 20" CvTextArgument="Company" CvType="Text" DesignTimeRectangle="1448, 140, 86, 32" ElementType="Text" FriendlyName="'Company'" FullSelectorArgument="&lt;webctrl idx='2' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H5' class='io-h5 text-white bold large-text' aaname='Company' check:innerText='Company' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFoAAAAkCAYAAAAJgC2zAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJTSURBVGhD7ZbRbcMwDES7cpF1jGySjJGM4RFUq5GsI3mMnZRt/UECD4jPikyeKNkfS5TkT6BiEg8Vk3iomMRDxSQeKibxUDGJh4pJPFRM4qFiEg8Vk3iomMRDxSQeKjZO5TIXGrczG588gYrldHUcbpFGv4wVp3tzs4Ux9XxLo19HCZ+XMnp5LpdPdd9jMd/EfVLjpjJG3cpkjqaqLeNEDkvMl3KCeXC3zdeT2X1V8587QjYL5vKoWzYceIG1qtxE7rJ+GLSAk9uEOXoHyMDF4gXvCcxl61irgeOf5TfM9t9HI1ojiDpkM47cTJPihXzYnuNBFI2rS1ddGr2aoXYD1WFubfSap9gJ3ZRqtCoax63zKqOdnPuzMIexqDAHevEAL/yV4tjt9vyeN/8efRgnjFbHE3av3yiYW59XGo3/paayIwI03FENvOCr58ON6NiivfGv6byb7L01f9HpOpjRsmk2u7fNMcbppvsGL+SqklVR7DWadfS2oSFGPzW5Rp/3VaMX4Gi7neH/5iPgGyngpLJohp8cW/HfMFoWZfMZYzE/lptfi2s05ndfPnnbT+ck0AI+sIY28PHgPplXNNd/wWjMj7w87a5S49Z53zFa51ID8xcwEQvkMVZNL4yO9w3dZzSPNT/1RWOjz/ue0eZo4sdGhYoP3CR5l5swD403er5Ou3bgiHofTf2h0Qt011ioeGi2Cv9boBnstzNCxUNzJKMxF+cl2KHiofl/o/FIa+GfzR0qHprDGb1tcoWKSTxUTOKhYhIPFZN4qJjEQ8UklI/yBWjv8mOHA+GhAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="80953092dfaf05b1303d756921584343.png" xmlns="">02H0E0d0REkinPlaA9n8THA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

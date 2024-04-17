@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Order Type",
+  "Description": "Checking the Screen for Order type ",
+  "Type": "Element",
+  "TaxonomyType": "Tags",
+  "Id": "MH96VLpE1UWkOWJjxtqIsw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/MH96VLpE1UWkOWJjxtqIsw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-09T15:20:25.4967333Z",
+  "Updated": "2023-11-29T15:37:10.5147745Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

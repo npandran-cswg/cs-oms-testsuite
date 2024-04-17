@@ -1,0 +1,15 @@
+﻿{
+  "Name": "AWI common screen",
+  "Type": "Screen",
+  "Id": "a8zlUWheo0C1488tvJiiZw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/a8zlUWheo0C1488tvJiiZw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/1AS0cMKcl0CbjD1uUEHcvA",
+  "Created": "2023-12-01T13:25:39.0103598Z",
+  "Updated": "2023-12-01T13:26:25.4964805Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

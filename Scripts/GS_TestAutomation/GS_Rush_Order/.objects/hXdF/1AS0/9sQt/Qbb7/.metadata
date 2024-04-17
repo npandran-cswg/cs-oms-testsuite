@@ -1,0 +1,14 @@
+﻿{
+  "Name": "ADItemsToggleButton",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "Qbb7K9_yvkWpVYS_zjR5ew",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/Qbb7K9_yvkWpVYS_zjR5ew",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/9sQt2lb7r0i8Z3lp8IutSg",
+  "Created": "2024-03-19T17:44:54.7316923Z",
+  "Updated": "2024-03-19T17:44:54.7316923Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

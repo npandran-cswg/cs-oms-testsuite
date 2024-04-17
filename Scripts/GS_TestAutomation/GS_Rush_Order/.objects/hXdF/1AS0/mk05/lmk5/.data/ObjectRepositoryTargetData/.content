@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Iwrzhc7onEqnrdy_jzft2w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/oms-home" CvTextArea="100, 296, 139, 20" CvTextArgument="Simple Order Entry" CvType="Text" DesignTimeRectangle="77, 267, 286, 44" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Simple Order Entry'" FullSelectorArgument="&lt;webctrl aaname='Simple Order Entry' aria-role='button' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Simple Order Entry' aria-role='button' tag='A' type='' class='dropdown-item io-dropdown-item' check:innerText='Simple Order Entry' /&gt;" Guid="adf6fc56-e03a-479b-aa2e-b8b281d0e2af" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5ce510643cabc155b11eb5f7ff2c7bd5.png" xmlns="">0zRArBS97ZkaHElB-Ak6JkQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N-3_x4qkBU2js-v36-A6Vw" Reference="D9F-caV3OUejNlJ30AZkgg/H7QV3ET5bkmC8lCHcPukCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/0" DesignTimeRectangle="844, 536, 250, 75" DesignTimeScaleFactor="1.25" FriendlyName="'DIV loading-animation'" FullSelectorArgument="&lt;webctrl id='loading-animation' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='loading-animation' tag='DIV' type='' class='css-1g8fyys' aaname='' /&gt;" Guid="a2c088c3-47a1-4bea-898a-82fdeec08697" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CSOMSQA' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0dc2b1dcb5760dfc869343def65ae855.png" xmlns="">0WEO4PLNp6kqrDVAy4gfwew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

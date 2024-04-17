@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1EOHNyql-E2uzeQjYOM04g" Reference="D9F-caV3OUejNlJ30AZkgg/ZfG6EDwP30C4QkUQkmHp7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/gs-rush-order" DesignTimeRectangle="1904, 220, 0, 0" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="[string.Format(&quot;&lt;webctrl aaname='{0}' parentid='tooltip' tag='DIV' /&gt;&quot;, CycleNo)]" FuzzySelectorArgument="&lt;webctrl aaname='2' parentid='tooltip' tag='DIV' type='' class='VirtualizedSelectOption VirtualizedSelectFocusedOption css-1uxy6vi' check:innerText='' /&gt;" Guid="0ba961b0-4902-495b-8228-d2949b430778" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ae8e790c5e3d0aecf182f57e56f9c28e.png" xmlns="">0k6HnsilCVUOhfKhicqQigg</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="CycleNo" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="16EfHO8OkkuRRUr_b27YSA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://csomsqa.cswg.com/cloudio/#/app/oms-portal/orderedits////" CvTextArea="300, 467, 121, 17" CvTextArgument="Confirmation #" CvType="Text" DesignTimeRectangle="287, 454, 291, 43" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aaname='Confirmation #' aria-role='menu' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Confirmation #' aria-role='menu' tag='DIV' type='' class='io-menu-item io-enabled' check:innerText='Confirmation #' /&gt;" Guid="b84d8047-9aba-401f-b63f-010d5a005439" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CloudIO' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CvTextArea="299, 731, 58, 22" CvTextArgument="Any Of" CvType="Text" DesignTimeRectangle="287, 720, 312, 43" FullSelectorArgument="&lt;webctrl aaname='Any Of' aria-role='menu' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Any Of' aria-role='menu' tag='DIV' type='' class='io-menu-item io-enabled' check:innerText='Any Of' /&gt;" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9d7c8e62acba7c0e0be2e7809d712423.png" xmlns="">0n1AFOh-uyEy3R2UlBHyw0g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

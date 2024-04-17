@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Division",
+  "Description": "Division Input Feild  for switch preference",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "RpBBVnRTU0qE6iQR7xRwhw",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/RpBBVnRTU0qE6iQR7xRwhw",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-28T18:11:23.7947911Z",
+  "Updated": "2023-11-29T04:57:43.7972549Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

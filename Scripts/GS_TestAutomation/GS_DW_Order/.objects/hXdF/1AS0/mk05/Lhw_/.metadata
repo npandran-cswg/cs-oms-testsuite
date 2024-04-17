@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Line Level Information",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Lhw_v9xOGU-DIgYR5FciaA",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/Lhw_v9xOGU-DIgYR5FciaA",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2024-01-08T11:11:02.7220064Z",
+  "Updated": "2024-01-08T11:11:02.7220064Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

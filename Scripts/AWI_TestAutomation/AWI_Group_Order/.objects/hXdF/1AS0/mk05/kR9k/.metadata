@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Company Code",
+  "Description": "Company Code feild for switch preference",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "kR9kq_G370OPJptyNaD0ZA",
+  "Reference": "D9F-caV3OUejNlJ30AZkgg/kR9kq_G370OPJptyNaD0ZA",
+  "ParentRef": "D9F-caV3OUejNlJ30AZkgg/mk05m9gukkGdiOOV2fXmKg",
+  "Created": "2023-11-28T18:12:14.8859637Z",
+  "Updated": "2023-11-28T18:12:14.8859637Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
